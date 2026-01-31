@@ -1,0 +1,48 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文3 开满鲜花的小路",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "原",
+      "pinyin": "yuán",
+      "stroke_order": "横、撇、竖、横折、横、横、竖钩、撇、点",
+      "words": ["原来", "草原", "原因"]
+    },
+    {
+      "character": "叔",
+      "pinyin": "shū",
+      "stroke_order": "竖、横、横、竖钩、点、横撇、捺",
+      "words": ["叔叔", "叔父", "大叔"]
+    },
+    {
+      "character": "局",
+      "pinyin": "jú",
+      "stroke_order": "横折、横、撇、横折钩、竖、横折、横",
+      "words": ["邮局", "局部", "结局"]
+    },
+    {
+      "character": "堆",
+      "pinyin": "duī",
+      "stroke_order": "横、竖、提、撇、竖、点、横、横、横、竖、横",
+      "words": ["土堆", "堆积", "堆放"]
+    },
+    {
+      "character": "礼",
+      "pinyin": "lǐ",
+      "stroke_order": "点、横撇、竖、点、竖弯钩",
+      "words": ["礼物", "礼貌", "礼节"]
+    },
+    {
+      "character": "邓",
+      "pinyin": "dèng",
+      "stroke_order": "横撇、捺、横折折钩、点",
+      "words": ["邓爷爷", "邓家"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 6,
+    "created_date": "2026-01-28"
+  }
+}

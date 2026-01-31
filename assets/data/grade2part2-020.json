@@ -1,0 +1,72 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文15 雷雨",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "雷",
+      "pinyin": "léi",
+      "stroke_order": "横、点、横撇、横钩、点、点、竖、横折、横、竖、横、横、竖、横、横",
+      "words": ["雷雨", "雷声", "打雷"]
+    },
+    {
+      "character": "乌",
+      "pinyin": "wū",
+      "stroke_order": "撇、横折钩、竖折折钩、横",
+      "words": ["乌云", "乌黑", "乌鸦"]
+    },
+    {
+      "character": "黑",
+      "pinyin": "hēi",
+      "stroke_order": "竖、横折、点、点、横、横、竖、横、点、点、点、点",
+      "words": ["黑色", "黑夜", "黑暗"]
+    },
+    {
+      "character": "压",
+      "pinyin": "yā",
+      "stroke_order": "横、撇、横、竖、横、横、竖钩、点、点、点、点",
+      "words": ["压力", "压迫", "压下"]
+    },
+    {
+      "character": "垂",
+      "pinyin": "chuí",
+      "stroke_order": "撇、横、竖、横、竖、竖、横、横、横、横、竖、横",
+      "words": ["垂下", "垂直", "垂头"]
+    },
+    {
+      "character": "户",
+      "pinyin": "hù",
+      "stroke_order": "点、横折、横、撇",
+      "words": ["窗户", "门户", "用户"]
+    },
+    {
+      "character": "新",
+      "pinyin": "xīn",
+      "stroke_order": "点、横、点、撇、横、横、竖钩、撇、撇、横、竖、撇、捺",
+      "words": ["新鲜", "新闻", "新年"]
+    },
+    {
+      "character": "迎",
+      "pinyin": "yíng",
+      "stroke_order": "撇、竖提、横折、竖、横折、横、横、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["迎接", "欢迎", "迎面"]
+    },
+    {
+      "character": "扑",
+      "pinyin": "pū",
+      "stroke_order": "横、竖钩、提、竖、点、撇、横折、横、竖钩、点、点、点、点",
+      "words": ["扑来", "扑灭", "扑打"]
+    },
+    {
+      "character": "清",
+      "pinyin": "qīng",
+      "stroke_order": "点、点、提、横、横、竖、横、竖、横折钩、横、横、竖钩、点、横",
+      "words": ["清新", "清楚", "清洁"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

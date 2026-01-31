@@ -1,0 +1,99 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文2 邓小平爷爷植树",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "坛",
+      "pinyin": "tán",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "龄",
+      "pinyin": "líng",
+      "stroke_order": "竖、横、竖、横、横、撇、捺、竖、横折、横、竖、横、横、撇、点",
+      "words": [
+        "年龄",
+        "高龄",
+        "树龄"
+      ]
+    },
+    {
+      "character": "格",
+      "pinyin": "gé",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "握",
+      "pinyin": "wò",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "致",
+      "pinyin": "zhì",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "勃",
+      "pinyin": "bó",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "挖",
+      "pinyin": "wā",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "选",
+      "pinyin": "xuǎn",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "茁",
+      "pinyin": "zhuó",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "移",
+      "pinyin": "yí",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "挥",
+      "pinyin": "huī",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "填",
+      "pinyin": "tián",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "扶",
+      "pinyin": "fú",
+      "stroke_order": "横、竖钩、提、横、横、撇、捺",
+      "words": [
+        "扶手",
+        "搀扶",
+        "扶正"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_characters": 13,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

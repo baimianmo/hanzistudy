@@ -1,0 +1,72 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文12 画杨桃",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "杨",
+      "pinyin": "yáng",
+      "stroke_order": "横、竖、撇、点、横折折折钩、撇、撇",
+      "words": ["杨树", "白杨", "杨柳"]
+    },
+    {
+      "character": "桃",
+      "pinyin": "táo",
+      "stroke_order": "横、竖、撇、点、撇、竖弯钩、撇、点、横、竖折、竖",
+      "words": ["桃子", "桃花", "樱桃"]
+    },
+    {
+      "character": "图",
+      "pinyin": "tú",
+      "stroke_order": "竖、横折、撇、横撇、捺、点、点、横",
+      "words": ["图画", "地图", "图书"]
+    },
+    {
+      "character": "课",
+      "pinyin": "kè",
+      "stroke_order": "点、横折提、横、竖、横折、横、横、竖、撇、捺",
+      "words": ["上课", "课文", "课本"]
+    },
+    {
+      "character": "摆",
+      "pinyin": "bǎi",
+      "stroke_order": "横、竖钩、提、竖、横折、横、竖、横、横、竖、撇、捺、点、横、横、竖、横",
+      "words": ["摆放", "摇摆", "摆弄"]
+    },
+    {
+      "character": "座",
+      "pinyin": "zuò",
+      "stroke_order": "点、横、撇、撇、点、撇、点、横、竖、撇、捺、横、竖、撇、捺、横",
+      "words": ["座位", "星座", "宝座"]
+    },
+    {
+      "character": "室",
+      "pinyin": "shì",
+      "stroke_order": "点、点、横撇、横、竖提、撇、点、横、竖、撇、捺、横、竖、横",
+      "words": ["教室", "室内", "卧室"]
+    },
+    {
+      "character": "页",
+      "pinyin": "yè",
+      "stroke_order": "横、撇、竖、横折、撇、点",
+      "words": ["页面", "书页", "页码"]
+    },
+    {
+      "character": "审",
+      "pinyin": "shěn",
+      "stroke_order": "点、点、横撇、点、横、撇、竖、横折、横、横、竖、横、横",
+      "words": ["审视", "审问", "审查"]
+    },
+    {
+      "character": "视",
+      "pinyin": "shì",
+      "stroke_order": "点、横撇、竖、点、竖、横折、撇、竖弯钩",
+      "words": ["电视", "视力", "视觉"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文25 羿射九日",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "觉",
+      "pinyin": "jué",
+      "stroke_order": "点、点、撇、点、横撇、竖、横折、撇、竖弯钩、撇、点、撇、横撇、捺",
+      "words": ["觉得", "感觉", "自觉"]
+    },
+    {
+      "character": "值",
+      "pinyin": "zhí",
+      "stroke_order": "撇、竖、横、竖、横、竖、横折、横、横、横、横、竖、横",
+      "words": ["值得", "价值", "值班"]
+    },
+    {
+      "character": "类",
+      "pinyin": "lèi",
+      "stroke_order": "点、撇、横、竖、撇、捺、横、竖、撇、点、横、撇、捺",
+      "words": ["人类", "分类", "类似"]
+    },
+    {
+      "character": "艰",
+      "pinyin": "jiān",
+      "stroke_order": "横折、横折、提、横折、横、竖、横、竖、横折、横、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["艰难", "艰苦", "艰辛"]
+    },
+    {
+      "character": "弓",
+      "pinyin": "gōng",
+      "stroke_order": "横折、横、竖折折钩",
+      "words": ["弓箭", "拉弓", "弯弓"]
+    },
+    {
+      "character": "炎",
+      "pinyin": "yán",
+      "stroke_order": "点、撇、撇、点、点、撇、撇、捺",
+      "words": ["炎热", "发炎", "炎症"]
+    },
+    {
+      "character": "害",
+      "pinyin": "hài",
+      "stroke_order": "点、点、横撇、横、横、横、竖、竖、横折、横、竖、横、横",
+      "words": ["害怕", "伤害", "灾害"]
+    },
+    {
+      "character": "此",
+      "pinyin": "cǐ",
+      "stroke_order": "竖、横、竖、提、撇、竖弯钩、撇、点",
+      "words": ["从此", "因此", "此时"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

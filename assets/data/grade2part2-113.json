@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文9 沙滩上的童话",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "周",
+      "pinyin": "zhōu",
+      "stroke_order": "撇、横折钩、横、竖、横、竖、横折、横",
+      "words": ["周围", "周末", "周期"]
+    },
+    {
+      "character": "围",
+      "pinyin": "wéi",
+      "stroke_order": "竖、横折、横、横、竖、横折、横、横、横、竖钩、点、点、横",
+      "words": ["周围", "围墙", "包围"]
+    },
+    {
+      "character": "句",
+      "pinyin": "jù",
+      "stroke_order": "撇、横折钩、竖、横折、横",
+      "words": ["句子", "句号", "语句"]
+    },
+    {
+      "character": "补",
+      "pinyin": "bǔ",
+      "stroke_order": "点、横撇、竖、撇、点、竖、点",
+      "words": ["补充", "补牙", "补习"]
+    },
+    {
+      "character": "充",
+      "pinyin": "chōng",
+      "stroke_order": "点、横、撇折、点、撇、竖弯钩",
+      "words": ["充满", "补充", "充足"]
+    },
+    {
+      "character": "药",
+      "pinyin": "yào",
+      "stroke_order": "横、竖、竖、横折、横、撇、竖、横折、横、横、竖钩、点",
+      "words": ["药品", "中药", "吃药"]
+    },
+    {
+      "character": "合",
+      "pinyin": "hé",
+      "stroke_order": "撇、捺、横、竖、横折、横",
+      "words": ["合作", "合适", "合并"]
+    },
+    {
+      "character": "死",
+      "pinyin": "sǐ",
+      "stroke_order": "横、撇、横撇、点、撇、竖弯钩",
+      "words": ["死亡", "生死", "死板"]
+    },
+    {
+      "character": "记",
+      "pinyin": "jì",
+      "stroke_order": "点、横折提、横折、横、竖弯钩",
+      "words": ["记住", "记忆", "笔记"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-28"
+  }
+}

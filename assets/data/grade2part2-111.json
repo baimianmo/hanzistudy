@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文8 枫树上的喜鹊",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "伞",
+      "pinyin": "sǎn",
+      "stroke_order": "撇、捺、点、撇、横、竖、横折、横、横、竖、竖、横",
+      "words": ["雨伞", "打伞", "伞兵"]
+    },
+    {
+      "character": "姨",
+      "pinyin": "yí",
+      "stroke_order": "撇点、撇、横、横、横折、横、竖折折钩、撇、捺",
+      "words": ["阿姨", "姨妈", "小姨"]
+    },
+    {
+      "character": "弟",
+      "pinyin": "dì",
+      "stroke_order": "点、撇、横折、横、竖折折钩、竖、撇",
+      "words": ["弟弟", "兄弟", "表弟"]
+    },
+    {
+      "character": "便",
+      "pinyin": "biàn",
+      "stroke_order": "撇、竖、横、竖、横折、横、横、撇、捺",
+      "words": ["方便", "便利", "便民"]
+    },
+    {
+      "character": "教",
+      "pinyin": "jiào",
+      "stroke_order": "横、竖、横、撇、横撇、捺、横、撇、竖、横折、横",
+      "words": ["教师", "教学", "教育"]
+    },
+    {
+      "character": "游",
+      "pinyin": "yóu",
+      "stroke_order": "点、点、提、点、横、横折钩、撇、撇、横、横撇、竖钩、横",
+      "words": ["游戏", "游泳", "游玩"]
+    },
+    {
+      "character": "戏",
+      "pinyin": "xì",
+      "stroke_order": "横撇、点、横、斜钩、撇、点、横、竖折折钩、撇、捺",
+      "words": ["游戏", "唱戏", "京戏"]
+    },
+    {
+      "character": "母",
+      "pinyin": "mǔ",
+      "stroke_order": "竖折、横折钩、点、横、点",
+      "words": ["母亲", "母子", "母爱"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

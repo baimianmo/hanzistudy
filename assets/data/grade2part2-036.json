@@ -1,0 +1,78 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文1 古诗二首",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "莺",
+      "pinyin": "yīng",
+      "stroke_order": "点、点、横撇、点、横、竖、横折、横、撇、点",
+      "words": ["黄莺", "莺飞草长", "夜莺"]
+    },
+    {
+      "character": "拂",
+      "pinyin": "fú",
+      "stroke_order": "横、竖钩、提、横折、横、竖折折钩、撇、竖",
+      "words": ["吹拂", "拂面", "拂堤"]
+    },
+    {
+      "character": "堤",
+      "pinyin": "dī",
+      "stroke_order": "横、竖、提、竖、横折、横、横、横、竖、横、撇、捺",
+      "words": ["堤岸", "河堤", "大堤"]
+    },
+    {
+      "character": "柳",
+      "pinyin": "liǔ",
+      "stroke_order": "横、竖、撇、点、撇、横折钩、撇、撇、竖",
+      "words": ["柳树", "杨柳", "柳条"]
+    },
+    {
+      "character": "醉",
+      "pinyin": "zuì",
+      "stroke_order": "横、竖、横折、撇、竖弯钩、横、横、点、横、撇、捺、撇、竖",
+      "words": ["陶醉", "醉酒", "沉醉"]
+    },
+    {
+      "character": "咏",
+      "pinyin": "yǒng",
+      "stroke_order": "竖、横折、横、点、横折钩、横撇、撇、捺",
+      "words": ["歌咏", "咏柳", "吟咏"]
+    },
+    {
+      "character": "妆",
+      "pinyin": "zhuāng",
+      "stroke_order": "点、提、竖、横、竖、横折、撇、竖弯钩、横",
+      "words": ["化妆", "妆扮", "梳妆"]
+    },
+    {
+      "character": "丝",
+      "pinyin": "sī",
+      "stroke_order": "撇折、撇折、提、撇折、撇折、提、横、横",
+      "words": ["丝绸", "丝线", "雨丝"]
+    },
+    {
+      "character": "绦",
+      "pinyin": "tāo",
+      "stroke_order": "撇折、撇折、提、撇、竖、竖、撇、捺、点、竖钩",
+      "words": ["丝绦", "绦虫"]
+    },
+    {
+      "character": "裁",
+      "pinyin": "cái",
+      "stroke_order": "横、竖、横、撇、竖钩、斜钩、撇、点、撇、点、撇、点",
+      "words": ["裁剪", "裁缝", "裁决"]
+    },
+    {
+      "character": "剪",
+      "pinyin": "jiǎn",
+      "stroke_order": "点、撇、横、竖、横折钩、横、横、竖、竖钩、撇、点",
+      "words": ["剪刀", "剪纸", "剪断"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 11,
+    "created_date": "2026-01-29"
+  }
+}

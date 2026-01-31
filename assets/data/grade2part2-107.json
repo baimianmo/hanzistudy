@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文6 一匹出色的马",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "匹",
+      "pinyin": "pǐ",
+      "stroke_order": "横、撇、竖弯钩、竖折、横",
+      "words": ["马匹", "匹配", "布匹"]
+    },
+    {
+      "character": "妹",
+      "pinyin": "mèi",
+      "stroke_order": "撇点、撇、横、横、横、竖、撇、捺",
+      "words": ["妹妹", "姐妹", "表妹"]
+    },
+    {
+      "character": "波",
+      "pinyin": "bō",
+      "stroke_order": "点、点、提、横撇、竖、撇、竖、横撇、捺",
+      "words": ["波浪", "水波", "波纹"]
+    },
+    {
+      "character": "纹",
+      "pinyin": "wén",
+      "stroke_order": "撇折、撇折、提、点、横、撇、捺",
+      "words": ["花纹", "指纹", "皱纹"]
+    },
+    {
+      "character": "像",
+      "pinyin": "xiàng",
+      "stroke_order": "撇、竖、撇、横撇、竖、横折、横、撇、弯钩、撇、撇、撇、捺",
+      "words": ["好像", "画像", "头像"]
+    },
+    {
+      "character": "景",
+      "pinyin": "jǐng",
+      "stroke_order": "竖、横折、横、横、点、横、竖、横折、横、竖钩、撇、点",
+      "words": ["风景", "景色", "背景"]
+    },
+    {
+      "character": "恋",
+      "pinyin": "liàn",
+      "stroke_order": "点、横、竖、横折、横、撇、竖弯钩、点、点、点、点、点",
+      "words": ["留恋", "依恋", "眷恋"]
+    },
+    {
+      "character": "舍",
+      "pinyin": "shě",
+      "stroke_order": "撇、捺、横、横、竖、竖、横折、横",
+      "words": ["舍得", "舍弃", "舍去"]
+    },
+    {
+      "character": "求",
+      "pinyin": "qiú",
+      "stroke_order": "横、竖钩、点、提、撇、捺、点",
+      "words": ["要求", "请求", "求助"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-28"
+  }
+}

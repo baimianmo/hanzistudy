@@ -1,0 +1,16 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "characters": [
+    {
+      "category": "识字表",
+      "lesson": "课文1 找春天",
+      "character": "找",
+      "pinyin": "zhǎo",
+      "stroke_order": "横、竖钩、提、横、撇、捺、点",
+      "words": ["寻找", "找到", "找人"]
+    },
+    {
+      "category": "识字表", 
+      "lesson": "课文1 找春天",
+      "character": "春

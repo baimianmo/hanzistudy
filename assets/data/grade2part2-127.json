@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文21 青蛙卖泥塘",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "蛙",
+      "pinyin": "wā",
+      "stroke_order": "竖、横折、横、竖、横、点、横、竖、横、横、竖、横、横、竖、横",
+      "words": ["青蛙", "牛蛙", "蛙声"]
+    },
+    {
+      "character": "卖",
+      "pinyin": "mài",
+      "stroke_order": "横、竖、横折、横、横、横、撇、点、点、点、点",
+      "words": ["卖泥塘", "买卖", "卖菜"]
+    },
+    {
+      "character": "搬",
+      "pinyin": "bān",
+      "stroke_order": "横、竖钩、提、撇、撇、横、横折、横、横、撇、捺、横折、横、撇、横折折撇、捺",
+      "words": ["搬家", "搬运", "搬走"]
+    },
+    {
+      "character": "倒",
+      "pinyin": "dào",
+      "stroke_order": "撇、竖、横、撇折、点、横、竖、提、横、竖、撇、捺",
+      "words": ["倒水", "倒立", "倒茶"]
+    },
+    {
+      "character": "籽",
+      "pinyin": "zǐ",
+      "stroke_order": "点、撇、横、竖、撇、点、横折、竖、横、横、竖钩、点、点、横、竖、撇、捺",
+      "words": ["草籽", "花籽", "种子"]
+    },
+    {
+      "character": "泉",
+      "pinyin": "quán",
+      "stroke_order": "撇、竖、横折、横、横、竖钩、横撇、撇、捺",
+      "words": ["泉水", "清泉", "泉眼"]
+    },
+    {
+      "character": "破",
+      "pinyin": "pò",
+      "stroke_order": "横、撇、竖、横折、横、横折、撇、竖、横撇、捺、点、横折折撇、捺",
+      "words": ["破开", "破坏", "破碎"]
+    },
+    {
+      "character": "应",
+      "pinyin": "yīng",
+      "stroke_order": "点、横、撇、横、撇、捺、横、横、竖钩、撇、点",
+      "words": ["应该", "应当", "应用"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

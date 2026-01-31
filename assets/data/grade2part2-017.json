@@ -1,0 +1,72 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文13 小马过河",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "棚",
+      "pinyin": "péng",
+      "stroke_order": "横、竖、撇、点、撇、横折钩、横、横、撇、竖、横折、横、横、横",
+      "words": ["马棚", "棚子", "车棚"]
+    },
+    {
+      "character": "驮",
+      "pinyin": "tuó",
+      "stroke_order": "横折、横折、横、横、撇、捺、点、横折折撇、捺",
+      "words": ["驮着", "驮运", "驮马"]
+    },
+    {
+      "character": "磨",
+      "pinyin": "mò",
+      "stroke_order": "点、横、撇、横、竖、撇、点、横、竖、撇、捺、横、竖、撇、捺、横、竖、撇、捺",
+      "words": ["磨坊", "石磨", "磨面"]
+    },
+    {
+      "character": "坊",
+      "pinyin": "fáng",
+      "stroke_order": "横、竖、横、横、竖、横、横折钩、撇",
+      "words": ["磨坊", "作坊", "染坊"]
+    },
+    {
+      "character": "挡",
+      "pinyin": "dǎng",
+      "stroke_order": "横、竖钩、提、竖、点、撇、横折、横、横、撇、横折折撇、捺",
+      "words": ["挡住", "阻挡", "遮挡"]
+    },
+    {
+      "character": "伯",
+      "pinyin": "bó",
+      "stroke_order": "撇、竖、竖、横折、横、横、撇、竖弯钩",
+      "words": ["伯伯", "伯父", "大伯"]
+    },
+    {
+      "character": "浅",
+      "pinyin": "qiǎn",
+      "stroke_order": "点、点、提、横、横、斜钩、撇、点、横折折撇、捺",
+      "words": ["深浅", "浅水", "浅滩"]
+    },
+    {
+      "character": "刻",
+      "pinyin": "kè",
+      "stroke_order": "点、横、撇折、撇、撇、点、竖、竖钩、横、竖、撇、捺",
+      "words": ["立刻", "刻苦", "雕刻"]
+    },
+    {
+      "character": "突",
+      "pinyin": "tū",
+      "stroke_order": "点、点、横撇、撇、点、横、撇折、点、撇、横撇、捺、点",
+      "words": ["突然", "突出", "突破"]
+    },
+    {
+      "character": "叹",
+      "pinyin": "tàn",
+      "stroke_order": "竖、横折、横、横撇、捺、点、横折折撇、捺",
+      "words": ["叹气", "感叹", "叹息"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

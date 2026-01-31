@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文17 太空生活趣事多",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "杯",
+      "pinyin": "bēi",
+      "stroke_order": "横、竖、撇、点、横、竖钩、点、点、横",
+      "words": ["杯子", "水杯", "茶杯"]
+    },
+    {
+      "character": "失",
+      "pinyin": "shī",
+      "stroke_order": "撇、横、横、竖钩、撇、撇、撇、捺",
+      "words": ["失去", "丢失", "失败"]
+    },
+    {
+      "character": "洗",
+      "pinyin": "xǐ",
+      "stroke_order": "点、点、提、撇、横、竖、撇、横、竖钩、撇、点",
+      "words": ["洗澡", "洗手", "清洗"]
+    },
+    {
+      "character": "澡",
+      "pinyin": "zǎo",
+      "stroke_order": "点、点、提、竖、横折、横、竖、横折、横、横、撇、捺、横、竖、撇、捺",
+      "words": ["洗澡", "澡堂", "澡盆"]
+    },
+    {
+      "character": "容",
+      "pinyin": "róng",
+      "stroke_order": "点、点、横撇、点、点、横撇、撇、捺、撇、捺、竖、横折、横",
+      "words": ["容易", "内容", "容量"]
+    },
+    {
+      "character": "易",
+      "pinyin": "yì",
+      "stroke_order": "竖、横折、横、横、撇、横折钩、撇、撇",
+      "words": ["容易", "交易", "简易"]
+    },
+    {
+      "character": "浴",
+      "pinyin": "yù",
+      "stroke_order": "点、点、提、撇、点、撇、捺、竖、横折、横、横、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["浴室", "沐浴", "浴池"]
+    },
+    {
+      "character": "桶",
+      "pinyin": "tǒng",
+      "stroke_order": "横、竖、横、横、竖、撇、捺、横、竖钩、点、点、横撇、点、横折折折钩、竖",
+      "words": ["水桶", "木桶", "桶装"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

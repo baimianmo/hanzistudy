@@ -1,0 +1,72 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文22 小毛虫",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "昆",
+      "pinyin": "kūn",
+      "stroke_order": "竖、横折、横、竖、横、横、横、竖提、撇、竖弯钩",
+      "words": ["昆虫", "昆仑", "昆明"]
+    },
+    {
+      "character": "怜",
+      "pinyin": "lián",
+      "stroke_order": "点、点、竖、点、横折、横、撇、竖提、撇、捺",
+      "words": ["可怜", "怜悯", "怜惜"]
+    },
+    {
+      "character": "挪",
+      "pinyin": "nuó",
+      "stroke_order": "横、竖钩、提、横折、横、竖、横、横折、横、横、撇、横撇、捺、点、横折折撇、捺",
+      "words": ["挪动", "挪移", "挪用"]
+    },
+    {
+      "character": "仿",
+      "pinyin": "fǎng",
+      "stroke_order": "撇、竖、点、横、横折、撇、点、撇、捺",
+      "words": ["仿佛", "模仿", "仿制"]
+    },
+    {
+      "character": "佛",
+      "pinyin": "fó",
+      "stroke_order": "撇、竖、横折、横、竖、横折、撇、竖弯钩",
+      "words": ["仿佛", "佛像", "佛教"]
+    },
+    {
+      "character": "任",
+      "pinyin": "rèn",
+      "stroke_order": "撇、竖、撇、横、竖、横",
+      "words": ["任何", "任务", "担任"]
+    },
+    {
+      "character": "何",
+      "pinyin": "hé",
+      "stroke_order": "撇、竖、横、竖、横折、横、竖钩、点",
+      "words": ["任何", "如何", "为何"]
+    },
+    {
+      "character": "竭",
+      "pinyin": "jié",
+      "stroke_order": "点、横、点、撇、提、竖、横折、横、横、竖、竖折、竖、横折、横、点、撇、横、竖、横折、横、横、横、竖、撇、捺",
+      "words": ["尽心竭力", "枯竭", "竭力"]
+    },
+    {
+      "character": "规",
+      "pinyin": "guī",
+      "stroke_order": "横、横、撇、点、竖、横折、撇、竖弯钩",
+      "words": ["规律", "规则", "规定"]
+    },
+    {
+      "character": "律",
+      "pinyin": "lǜ",
+      "stroke_order": "撇、撇、竖、横折、横、横、横、横、竖",
+      "words": ["规律", "法律", "纪律"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

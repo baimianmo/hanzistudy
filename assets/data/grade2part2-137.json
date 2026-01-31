@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "识字1 神州谣",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "州",
+      "pinyin": "zhōu",
+      "stroke_order": "点、撇、点、竖、点、竖",
+      "words": ["神州", "九州", "广州"]
+    },
+    {
+      "character": "湾",
+      "pinyin": "wān",
+      "stroke_order": "点、点、提、点、横、竖、竖、撇、点、横折钩、竖、竖折折钩、竖",
+      "words": ["台湾", "海湾", "港湾"]
+    },
+    {
+      "character": "岛",
+      "pinyin": "dǎo",
+      "stroke_order": "撇、竖折折钩、点、竖折折钩、横、竖折折钩、横",
+      "words": ["海岛", "小岛", "岛屿"]
+    },
+    {
+      "character": "峡",
+      "pinyin": "xiá",
+      "stroke_order": "竖、撇、竖、横、点、撇、横、撇、捺",
+      "words": ["海峡", "三峡", "峡谷"]
+    },
+    {
+      "character": "民",
+      "pinyin": "mín",
+      "stroke_order": "横折、横、竖提、横、斜钩",
+      "words": ["人民", "民族", "农民"]
+    },
+    {
+      "character": "族",
+      "pinyin": "zú",
+      "stroke_order": "点、横、五、撇、撇、横、横、撇、捺",
+      "words": ["民族", "汉族", "家族"]
+    },
+    {
+      "character": "谊",
+      "pinyin": "yì",
+      "stroke_order": "点、横折提、点、四、横、横、横",
+      "words": ["情谊", "友谊", "联谊"]
+    },
+    {
+      "character": "齐",
+      "pinyin": "qí",
+      "stroke_order": "点、横、撇、捺、撇、竖",
+      "words": ["整齐", "看齐", "齐心"]
+    },
+    {
+      "character": "奋",
+      "pinyin": "fèn",
+      "stroke_order": "大、田",
+      "words": ["奋斗", "兴奋", "勤奋"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-29"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文11 寓言二则",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "寓",
+      "pinyin": "yù",
+      "stroke_order": "点、点、横撇、竖、横折、横、横、竖、横折、横、竖、横折、横",
+      "words": ["寓言", "公寓", "寓意"]
+    },
+    {
+      "character": "则",
+      "pinyin": "zé",
+      "stroke_order": "竖、横折、撇、点、竖、竖钩",
+      "words": ["规则", "原则", "守则"]
+    },
+    {
+      "character": "亡",
+      "pinyin": "wáng",
+      "stroke_order": "点、横、竖折、竖",
+      "words": ["死亡", "灭亡", "逃亡"]
+    },
+    {
+      "character": "牢",
+      "pinyin": "láo",
+      "stroke_order": "点、点、横撇、撇、横、横、竖、横、竖",
+      "words": ["牢固", "牢房", "坐牢"]
+    },
+    {
+      "character": "钻",
+      "pinyin": "zuān",
+      "stroke_order": "撇、横、横、横、竖提、竖、横、竖、横折、横",
+      "words": ["钻洞", "钻研", "钻石"]
+    },
+    {
+      "character": "劝",
+      "pinyin": "quàn",
+      "stroke_order": "横撇、点、横折钩、撇、竖、横折、横、横、竖钩、点",
+      "words": ["劝告", "劝说", "劝阻"]
+    },
+    {
+      "character": "丢",
+      "pinyin": "diū",
+      "stroke_order": "撇、横、竖、横、撇折、点、撇、竖弯钩、撇、点",
+      "words": ["丢失", "丢掉", "丢脸"]
+    },
+    {
+      "character": "告",
+      "pinyin": "gào",
+      "stroke_order": "撇、横、竖、横、竖、横折、横、竖、横折、横",
+      "words": ["告诉", "报告", "告别"]
+    },
+    {
+      "character": "筋",
+      "pinyin": "jīn",
+      "stroke_order": "撇、横、点、撇、横、点、撇、横、点、撇折、撇折、撇、横折钩、撇、撇",
+      "words": ["筋骨", "脑筋", "筋斗"]
+    },
+    {
+      "character": "疲",
+      "pinyin": "pí",
+      "stroke_order": "点、横、撇、点、提、横撇、撇、竖、横撇、捺、点、点、点、点",
+      "words": ["疲劳", "疲惫", "疲倦"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

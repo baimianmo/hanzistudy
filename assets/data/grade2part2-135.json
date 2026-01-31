@@ -1,0 +1,48 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地八",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "金",
+      "pinyin": "jīn",
+      "stroke_order": "撇、捺、横、横、竖、点、撇、横",
+      "words": ["金子", "黄金", "金属"]
+    },
+    {
+      "character": "木",
+      "pinyin": "mù",
+      "stroke_order": "横、竖、撇、捺",
+      "words": ["树木", "木头", "木工"]
+    },
+    {
+      "character": "水",
+      "pinyin": "shuǐ",
+      "stroke_order": "竖钩、横撇、撇、捺",
+      "words": ["水果", "河水", "水平"]
+    },
+    {
+      "character": "火",
+      "pinyin": "huǒ",
+      "stroke_order": "点、撇、撇、捺",
+      "words": ["火车", "火光", "灭火"]
+    },
+    {
+      "character": "土",
+      "pinyin": "tǔ",
+      "stroke_order": "横、竖、横",
+      "words": ["土地", "泥土", "土豆"]
+    },
+    {
+      "character": "心",
+      "pinyin": "xīn",
+      "stroke_order": "点、斜钩、点、点",
+      "words": ["心里", "中心", "心情"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 6,
+    "created_date": "2026-01-28"
+  }
+}

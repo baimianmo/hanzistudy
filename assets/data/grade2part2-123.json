@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文18 祖先的摇篮",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "祖",
+      "pinyin": "zǔ",
+      "stroke_order": "点、横撇、竖、点、竖、横折、横、横、横",
+      "words": ["祖先", "祖国", "祖宗"]
+    },
+    {
+      "character": "啊",
+      "pinyin": "a",
+      "stroke_order": "竖、横折、横、横折、横、竖、横、竖、横折、横、竖钩",
+      "words": ["好啊", "来啊", "走啊"]
+    },
+    {
+      "character": "浓",
+      "pinyin": "nóng",
+      "stroke_order": "点、点、提、点、横撇、横、撇、竖提、撇、捺、撇、竖、撇、横、竖、撇、捺",
+      "words": ["浓绿", "浓厚", "浓度"]
+    },
+    {
+      "character": "望",
+      "pinyin": "wàng",
+      "stroke_order": "点、横、竖提、点、横折钩、竖、横折、横、横、横、横、横、竖、撇、捺",
+      "words": ["看望", "希望", "愿望"]
+    },
+    {
+      "character": "蓝",
+      "pinyin": "lán",
+      "stroke_order": "横、竖、竖、竖、竖、撇、横、点、竖、横折、竖、竖、横、横、竖、撇、捺",
+      "words": ["蓝天", "蓝色", "蔚蓝"]
+    },
+    {
+      "character": "摘",
+      "pinyin": "zhāi",
+      "stroke_order": "横、竖钩、提、点、横、点、撇、竖、点、横、横、横、竖、横、横、竖、撇、捺",
+      "words": ["摘野果", "摘花", "采摘"]
+    },
+    {
+      "character": "掏",
+      "pinyin": "tāo",
+      "stroke_order": "横、竖钩、提、横折钩、撇、竖、横折、横",
+      "words": ["掏鸟蛋", "掏出", "掏钱"]
+    },
+    {
+      "character": "赛",
+      "pinyin": "sài",
+      "stroke_order": "点、点、横撇、横、横、竖、竖、横、竖、横折、撇、竖弯钩、撇、点、竖、横折、横、横、横、竖、撇、捺",
+      "words": ["比赛", "赛跑", "竞赛"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

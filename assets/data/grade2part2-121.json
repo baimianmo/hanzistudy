@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文16 要是你在野外迷了路",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "指",
+      "pinyin": "zhǐ",
+      "stroke_order": "横、竖钩、提、撇、竖弯钩、竖、横折、横、横、横",
+      "words": ["指南针", "手指", "指导"]
+    },
+    {
+      "character": "针",
+      "pinyin": "zhēn",
+      "stroke_order": "撇、横、横、横、竖提、横、竖",
+      "words": ["指南针", "打针", "针线"]
+    },
+    {
+      "character": "帮",
+      "pinyin": "bāng",
+      "stroke_order": "横、横、横、竖、横折、横、横、竖钩、竖、横折、横、横、竖、撇、横折钩、竖、撇、撇",
+      "words": ["帮助", "帮忙", "帮手"]
+    },
+    {
+      "character": "助",
+      "pinyin": "zhù",
+      "stroke_order": "竖、横折、横、横、提、横折钩、撇",
+      "words": ["帮助", "助手", "协助"]
+    },
+    {
+      "character": "导",
+      "pinyin": "dǎo",
+      "stroke_order": "横折、横、竖弯钩、横、竖钩、点",
+      "words": ["向导", "引导", "指导"]
+    },
+    {
+      "character": "永",
+      "pinyin": "yǒng",
+      "stroke_order": "点、横折钩、横撇、撇、捺",
+      "words": ["永远", "永久", "永别"]
+    },
+    {
+      "character": "碰",
+      "pinyin": "pèng",
+      "stroke_order": "横、竖、横、点、撇、横、竖、竖、点、横、横、横、竖、横、横、撇、竖",
+      "words": ["碰见", "碰到", "碰撞"]
+    },
+    {
+      "character": "特",
+      "pinyin": "tè",
+      "stroke_order": "撇、横、竖、提、横、竖、横、横、竖钩、点",
+      "words": ["特别", "特殊", "特点"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文2 邓小平爷爷植树",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "爷",
+      "pinyin": "yé",
+      "stroke_order": "撇、点、撇、捺、横折钩、竖",
+      "words": ["爷爷", "爷们", "大爷"]
+    },
+    {
+      "character": "节",
+      "pinyin": "jié",
+      "stroke_order": "横、竖、竖、横折钩、竖",
+      "words": ["节日", "节约", "季节"]
+    },
+    {
+      "character": "岁",
+      "pinyin": "suì",
+      "stroke_order": "竖、横折、竖、撇、撇、横撇、点",
+      "words": ["岁月", "年岁", "几岁"]
+    },
+    {
+      "character": "亲",
+      "pinyin": "qīn",
+      "stroke_order": "点、横、点、撇、横、横、竖钩、撇、点、横、竖钩、点",
+      "words": ["亲手", "亲自", "亲人"]
+    },
+    {
+      "character": "的",
+      "pinyin": "de",
+      "stroke_order": "撇、竖、横折、横、横、撇、横折钩、点",
+      "words": ["我的", "你的", "他的"]
+    },
+    {
+      "character": "行",
+      "pinyin": "xíng",
+      "stroke_order": "撇、撇、竖、横、横、竖钩、横、横、竖钩、横",
+      "words": ["行走", "行人", "行动"]
+    },
+    {
+      "character": "扶",
+      "pinyin": "fú",
+      "stroke_order": "横、竖钩、提、横、横、撇、捺",
+      "words": ["扶手", "搀扶", "扶正"]
+    },
+    {
+      "character": "栽",
+      "pinyin": "zāi",
+      "stroke_order": "横、竖、横、横、竖、撇、点、斜钩、撇、点、横、竖、撇、捺",
+      "words": ["栽树", "栽种", "移栽"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

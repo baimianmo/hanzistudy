@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "识字2 传统节日",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "贴",
+      "pinyin": "tiē",
+      "stroke_order": "竖、横折、撇、点、竖、横折、撇、点",
+      "words": ["贴画", "粘贴", "体贴"]
+    },
+    {
+      "character": "街",
+      "pinyin": "jiē",
+      "stroke_order": "撇、撇、竖、横、竖、横、横、竖、提、横、竖钩、横",
+      "words": ["街道", "大街", "街头"]
+    },
+    {
+      "character": "舟",
+      "pinyin": "zhōu",
+      "stroke_order": "撇、撇、横折钩、点、横、点",
+      "words": ["龙舟", "轻舟", "方舟"]
+    },
+    {
+      "character": "艾",
+      "pinyin": "ài",
+      "stroke_order": "横、竖、竖、撇、捺",
+      "words": ["艾草", "艾叶", "艾灸"]
+    },
+    {
+      "character": "敬",
+      "pinyin": "jìng",
+      "stroke_order": "横、竖、竖、撇、横折、横、竖、横折、横、撇、横折弯、撇、捺",
+      "words": ["敬爱", "尊敬", "敬礼"]
+    },
+    {
+      "character": "转",
+      "pinyin": "zhuǎn",
+      "stroke_order": "横、撇折、竖、提、横、横、撇折、点",
+      "words": ["转身", "转动", "转告"]
+    },
+    {
+      "character": "团",
+      "pinyin": "tuán",
+      "stroke_order": "竖、横折、横、竖钩、撇、点、横",
+      "words": ["团圆", "团结", "团聚"]
+    },
+    {
+      "character": "热",
+      "pinyin": "rè",
+      "stroke_order": "横、竖、横、撇、捺、点、点、点、点",
+      "words": ["热闹", "热爱", "热心"]
+    },
+    {
+      "character": "闹",
+      "pinyin": "nào",
+      "stroke_order": "点、横、竖、横折钩、竖、五、竖",
+      "words": ["热闹", "闹钟", "吵闹"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-29"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地七",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "扫",
+      "pinyin": "sǎo",
+      "stroke_order": "横、竖钩、提、横折、横、横、撇、横、撇、捺、点、横折折撇、捺",
+      "words": ["打扫", "扫地", "清扫"]
+    },
+    {
+      "character": "地",
+      "pinyin": "dì",
+      "stroke_order": "横、竖、提、横折钩、竖、竖弯钩",
+      "words": ["土地", "地面", "地方"]
+    },
+    {
+      "character": "摆",
+      "pinyin": "bǎi",
+      "stroke_order": "横、竖钩、提、竖、横折、横、竖、横、横、竖、撇、捺、点、横、横、竖、横",
+      "words": ["摆放", "摆动", "摆设"]
+    },
+    {
+      "character": "放",
+      "pinyin": "fàng",
+      "stroke_order": "点、横、横折钩、撇、撇、横、撇、捺、点、横折折撇、捺",
+      "words": ["放开", "放学", "放手"]
+    },
+    {
+      "character": "清",
+      "pinyin": "qīng",
+      "stroke_order": "点、点、提、横、横、竖、横、竖、横折钩、横、横、竖钩、点、横",
+      "words": ["清洁", "清楚", "清洗"]
+    },
+    {
+      "character": "洁",
+      "pinyin": "jié",
+      "stroke_order": "点、点、提、横、竖、横、竖、横折、横、横、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["清洁", "纯洁", "洁净"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 6,
+    "created_date": "2026-01-28"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文1 找春天",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "脱",
+      "pinyin": "tuō",
+      "stroke_order": "撇、横折钩、横、横、点、撇、竖、点、横折折撇、捺",
+      "words": [
+        "脱掉",
+        "脱下",
+        "脱衣"
+      ]
+    },
+    {
+      "character": "袄",
+      "pinyin": "ǎo",
+      "stroke_order": "点、横撇、竖、撇、点、撇、捺、横、竖、撇、捺",
+      "words": [
+        "棉袄",
+        "皮袄",
+        "夹袄"
+      ]
+    },
+    {
+      "character": "寻",
+      "pinyin": "xún",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "羞",
+      "pinyin": "xiū",
+      "stroke_order": "点、撇、横、横、横、撇、横折、横、横、撇、竖弯、撇、撇、撇、捺",
+      "words": [
+        "害羞",
+        "羞涩",
+        "羞答答"
+      ]
+    },
+    {
+      "character": "姑",
+      "pinyin": "gū",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "遮",
+      "pinyin": "zhē",
+      "stroke_order": "点、横、撇、横、竖、竖、横、横、撇、点、横折折撇、捺",
+      "words": [
+        "遮挡",
+        "遮住",
+        "遮盖"
+      ]
+    },
+    {
+      "character": "掩",
+      "pinyin": "yǎn",
+      "stroke_order": "横、竖钩、提、横、撇、捺、竖、横折、横、横、撇、捺",
+      "words": [
+        "掩住",
+        "掩盖",
+        "掩护"
+      ]
+    },
+    {
+      "character": "探",
+      "pinyin": "tàn",
+      "stroke_order": "横、竖钩、提、点、横折、撇、点、横、横、竖、撇、捺",
+      "words": [
+        "探头",
+        "探望",
+        "探索"
+      ]
+    },
+    {
+      "character": "嫩",
+      "pinyin": "nèn",
+      "stroke_order": "横折、横、竖、横、横、竖、撇、点、撇、横、撇、捺、竖、横折、横",
+      "words": [
+        "嫩绿",
+        "嫩芽",
+        "娇嫩"
+      ]
+    },
+    {
+      "character": "符",
+      "pinyin": "fú",
+      "stroke_order": "撇、横、点、撇、横、点、撇、竖、横、竖钩、点",
+      "words": [
+        "音符",
+        "符号",
+        "符合"
+      ]
+    },
+    {
+      "character": "解",
+      "pinyin": "jiě",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "触",
+      "pinyin": "chù",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "杜",
+      "pinyin": "dù",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "鹃",
+      "pinyin": "juān",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 14,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

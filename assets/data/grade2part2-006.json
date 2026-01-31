@@ -1,0 +1,72 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文5 千人糕",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "糕",
+      "pinyin": "gāo",
+      "stroke_order": "点、撇、横、竖、撇、点、点、撇、横、竖、横、竖、横折、横",
+      "words": ["糕点", "蛋糕", "年糕"]
+    },
+    {
+      "character": "特",
+      "pinyin": "tè",
+      "stroke_order": "撇、横、竖、提、横、竖、横、横、竖钩、点",
+      "words": ["特别", "特殊", "特点"]
+    },
+    {
+      "character": "嘛",
+      "pinyin": "ma",
+      "stroke_order": "竖、横折、横、点、横、撇、横、竖、撇、捺、横、竖、撇、捺",
+      "words": ["好嘛", "干嘛", "来嘛"]
+    },
+    {
+      "character": "买",
+      "pinyin": "mǎi",
+      "stroke_order": "横撇、点、点、横、竖、横折、撇、点",
+      "words": ["买卖", "买菜", "购买"]
+    },
+    {
+      "character": "粉",
+      "pinyin": "fěn",
+      "stroke_order": "点、撇、横、竖、撇、点、撇、捺、横折钩、撇",
+      "words": ["面粉", "粉笔", "粉色"]
+    },
+    {
+      "character": "糖",
+      "pinyin": "táng",
+      "stroke_order": "点、撇、横、竖、撇、点、点、横、撇、横折、横、横、竖、竖、横折、横",
+      "words": ["糖果", "白糖", "糖水"]
+    },
+    {
+      "character": "蔗",
+      "pinyin": "zhè",
+      "stroke_order": "横、竖、竖、点、横、撇、横、竖、撇、横、撇、捺、点、横、竖钩、点",
+      "words": ["甘蔗", "蔗糖", "蔗农"]
+    },
+    {
+      "character": "汁",
+      "pinyin": "zhī",
+      "stroke_order": "点、点、提、横、竖、撇、捺、点、横撇、捺",
+      "words": ["果汁", "汁液", "汁水"]
+    },
+    {
+      "character": "菜",
+      "pinyin": "cài",
+      "stroke_order": "横、竖、竖、撇、捺、点、横撇、撇、点、横、竖、撇、捺",
+      "words": ["白菜", "青菜", "蔬菜"]
+    },
+    {
+      "character": "熬",
+      "pinyin": "áo",
+      "stroke_order": "横、横、竖、横、横折钩、撇、撇、横、撇、捺、点、点、点、点",
+      "words": ["熬夜", "熬粥", "熬汤"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "识字4 中国美食",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "菠",
+      "pinyin": "bō",
+      "stroke_order": "横、竖、竖、点、点、提、横撇、撇、竖、横撇、捺",
+      "words": ["菠菜", "菠萝", "菠浪"]
+    },
+    {
+      "character": "煎",
+      "pinyin": "jiān",
+      "stroke_order": "点、撇、横、竖、横折、横、横、撇、横折钩、点、点、点、点",
+      "words": ["煎饼", "煎熬", "煎药"]
+    },
+    {
+      "character": "腐",
+      "pinyin": "fǔ",
+      "stroke_order": "点、横、撇、撇、竖、横折钩、横、横、竖、横折、撇、点、点、四",
+      "words": ["豆腐", "腐烂", "腐败"]
+    },
+    {
+      "character": "茄",
+      "pinyin": "qié",
+      "stroke_order": "横、竖、竖、横撇、撇、竖、横折钩、横",
+      "words": ["茄子", "番茄", "茄盒"]
+    },
+    {
+      "character": "烤",
+      "pinyin": "kǎo",
+      "stroke_order": "点、撇、撇、点、横、竖、横、撇、竖弯钩",
+      "words": ["烤鸭", "烧烤", "烤箱"]
+    },
+    {
+      "character": "煮",
+      "pinyin": "zhǔ",
+      "stroke_order": "横、竖、横、撇、竖、横折、横、横、点、点、点、点",
+      "words": ["煮饭", "水煮", "煮沸"]
+    },
+    {
+      "character": "爆",
+      "pinyin": "bào",
+      "stroke_order": "点、撇、撇、点、竖、横折、横、横、横、撇、捺、竖、点、提、撇、点、点、四",
+      "words": ["爆炒", "爆炸", "爆竹"]
+    },
+    {
+      "character": "炖",
+      "pinyin": "dùn",
+      "stroke_order": "点、撇、撇、点、横、竖、横折、横",
+      "words": ["炖肉", "炖汤", "清炖"]
+    },
+    {
+      "character": "蘑",
+      "pinyin": "mó",
+      "stroke_order": "横、竖、竖、点、横、撇、横、竖、撇、捺、横、竖、撇、捺、横、竖、横折、横",
+      "words": ["蘑菇", "口蘑", "香蘑"]
+    },
+    {
+      "character": "菇",
+      "pinyin": "gū",
+      "stroke_order": "横、竖、竖、横撇、撇、横、竖、横折、横",
+      "words": ["蘑菇", "香菇", "金针菇"]
+    },
+    {
+      "character": "蒸",
+      "pinyin": "zhēng",
+      "stroke_order": "横、竖、竖、横、撇、捺、横、竖钩、点、点、点、点",
+      "words": ["蒸饺", "蒸发", "蒸笼"]
+    },
+    {
+      "character": "饺",
+      "pinyin": "jiǎo",
+      "stroke_order": "撇、横撇、竖提、点、横、撇、捺、撇、点",
+      "words": ["饺子", "水饺", "蒸饺"]
+    },
+    {
+      "character": "炸",
+      "pinyin": "zhá",
+      "stroke_order": "点、撇、撇、点、撇、横、竖、横、横",
+      "words": ["炸酱面", "油炸", "爆炸"]
+    },
+    {
+      "character": "酱",
+      "pinyin": "jiàng",
+      "stroke_order": "点、提、竖、撇、横撇、捺、横、竖、横、横、竖、横折、横",
+      "words": ["炸酱", "酱油", "果酱"]
+    },
+    {
+      "character": "粥",
+      "pinyin": "zhōu",
+      "stroke_order": "横折、横、竖钩、提、点、提、横折、横、竖钩、撇、点、点",
+      "words": ["米粥", "喝粥", "腊八粥"]
+    },
+    {
+      "character": "蛋",
+      "pinyin": "dàn",
+      "stroke_order": "横折钩、竖、横、撇、捺、竖、横折、横、竖、横、点",
+      "words": ["鸡蛋", "鸭蛋", "蛋糕"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 16,
+    "created_date": "2026-01-29"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文3 开满鲜花的小路",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "邮",
+      "pinyin": "yóu",
+      "stroke_order": "竖、横折、横、竖、横、横折折撇、捺",
+      "words": [
+        "邮局",
+        "邮票",
+        "邮件"
+      ]
+    },
+    {
+      "character": "递",
+      "pinyin": "dì",
+      "stroke_order": "点、撇、横折、横、竖折折钩、竖、撇、点、横折折撇、捺",
+      "words": [
+        "传递",
+        "递给",
+        "快递"
+      ]
+    },
+    {
+      "character": "裹",
+      "pinyin": "guǒ",
+      "stroke_order": "点、横、竖、横折、横、横、横、竖、撇、点、撇、竖提、撇、捺",
+      "words": [
+        "包裹",
+        "裹住",
+        "裹挟"
+      ]
+    },
+    {
+      "character": "寄",
+      "pinyin": "jì",
+      "stroke_order": "点、点、横撇、点、横、撇、捺、竖、横折、横、竖、横、横",
+      "words": [
+        "寄信",
+        "邮寄",
+        "寄来"
+      ]
+    },
+    {
+      "character": "局",
+      "pinyin": "jú",
+      "stroke_order": "横折、横、撇、横折钩、竖、横折、横",
+      "words": [
+        "邮局",
+        "局部",
+        "结局"
+      ]
+    },
+    {
+      "character": "堆",
+      "pinyin": "duī",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "破",
+      "pinyin": "pò",
+      "stroke_order": "横、撇、竖、横折、横、横折、撇、竖、横撇、捺、点、横折折撇、捺",
+      "words": [
+        "破开",
+        "破坏",
+        "破碎"
+      ]
+    },
+    {
+      "character": "漏",
+      "pinyin": "lòu",
+      "stroke_order": "点、点、提、横折、横、竖、横、横、竖提、撇、点、撇、点、撇、捺",
+      "words": [
+        "漏出",
+        "漏水",
+        "遗漏"
+      ]
+    },
+    {
+      "character": "懊",
+      "pinyin": "ào",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "丧",
+      "pinyin": "sàng",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "啊",
+      "pinyin": "a",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "猬",
+      "pinyin": "wèi",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "绚",
+      "pinyin": "xuàn",
+      "stroke_order": "撇折、撇折、点、点、横、撇、横折、竖、横、竖、撇、点、撇、撇、撇",
+      "words": [
+        "绚丽",
+        "绚烂",
+        "绚美"
+      ]
+    },
+    {
+      "character": "籽",
+      "pinyin": "zǐ",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "礼",
+      "pinyin": "lǐ",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 15,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

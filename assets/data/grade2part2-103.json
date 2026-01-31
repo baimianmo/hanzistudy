@@ -1,0 +1,36 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地一",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "体",
+      "pinyin": "tǐ",
+      "stroke_order": "撇、竖、横、竖、撇、捺、横",
+      "words": ["身体", "体育", "体会"]
+    },
+    {
+      "character": "息",
+      "pinyin": "xī",
+      "stroke_order": "撇、竖、横折、横、横、点、斜钩、点、点",
+      "words": ["休息", "消息", "气息"]
+    },
+    {
+      "character": "菜",
+      "pinyin": "cài",
+      "stroke_order": "横、竖、竖、撇、捺、点、横撇、撇、点、横、竖、撇、捺",
+      "words": ["白菜", "青菜", "蔬菜"]
+    },
+    {
+      "character": "道",
+      "pinyin": "dào",
+      "stroke_order": "点、撇、横、撇、竖、横折、横、横、横、点、横折折撇、捺",
+      "words": ["道路", "知道", "道理"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 4,
+    "created_date": "2026-01-28"
+  }
+}

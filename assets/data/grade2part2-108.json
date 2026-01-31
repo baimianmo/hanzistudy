@@ -1,0 +1,93 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地二",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "程",
+      "pinyin": "chéng",
+      "stroke_order": "撇、横、竖、撇、点、竖、横折、横、横、横、竖、横",
+      "words": [
+        "工程",
+        "程度",
+        "程序"
+      ]
+    },
+    {
+      "character": "魔",
+      "pinyin": "mó",
+      "stroke_order": "点、横、撇、横、竖、撇、点、横、竖、撇、捺、撇、竖、横折、横、横、撇、竖弯钩、撇折、点",
+      "words": [
+        "魔术",
+        "魔法",
+        "魔王"
+      ]
+    },
+    {
+      "character": "术",
+      "pinyin": "shù",
+      "stroke_order": "横、竖、撇、捺、点、点、撇、捺、点",
+      "words": [
+        "美术",
+        "技术",
+        "艺术"
+      ]
+    },
+    {
+      "character": "筑",
+      "pinyin": "zhù",
+      "stroke_order": "撇、横、点、撇、横、点、横、竖、提、撇、横折钩、点、竖折折钩、横",
+      "words": [
+        "建筑",
+        "筑路",
+        "筑巢"
+      ]
+    },
+    {
+      "character": "演",
+      "pinyin": "yǎn",
+      "stroke_order": "点、点、提、点、横、点、撇、横、竖、横折、横、横、横、竖",
+      "words": [
+        "表演",
+        "演出",
+        "演讲"
+      ]
+    },
+    {
+      "character": "营",
+      "pinyin": "yíng",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "务",
+      "pinyin": "wù",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "判",
+      "pinyin": "pàn",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "饲",
+      "pinyin": "sì",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "养",
+      "pinyin": "yǎng",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

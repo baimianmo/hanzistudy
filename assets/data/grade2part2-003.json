@@ -1,0 +1,91 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地一",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "亭",
+      "pinyin": "tíng",
+      "stroke_order": "点、横、竖、横折、横、点、横撇、横、竖钩、横",
+      "words": [
+        "亭子",
+        "凉亭",
+        "书亭"
+      ]
+    },
+    {
+      "character": "咨",
+      "pinyin": "zī",
+      "stroke_order": "点、提、撇、横撇、撇、捺、点、横折、横、横",
+      "words": [
+        "咨询",
+        "咨文",
+        "咨议"
+      ]
+    },
+    {
+      "character": "询",
+      "pinyin": "xún",
+      "stroke_order": "点、横折、提、撇、横折、竖、横折、横、横、横、竖钩、点",
+      "words": [
+        "询问",
+        "咨询",
+        "查询"
+      ]
+    },
+    {
+      "character": "剧",
+      "pinyin": "jù",
+      "stroke_order": "横折、横、撇、横、竖、竖、横折、横、竖、横折、横、竖、竖钩",
+      "words": [
+        "剧场",
+        "戏剧",
+        "京剧"
+      ]
+    },
+    {
+      "character": "管",
+      "pinyin": "guǎn",
+      "stroke_order": "撇、横、点、撇、横、点、点、点、横撇、竖、横折、横、横折、横",
+      "words": [
+        "管理",
+        "管道",
+        "管家"
+      ]
+    },
+    {
+      "character": "理",
+      "pinyin": "lǐ",
+      "stroke_order": "横、横、竖、提、竖、横折、横、横、竖、横、横",
+      "words": [
+        "道理",
+        "理解",
+        "理由"
+      ]
+    },
+    {
+      "character": "宝",
+      "pinyin": "bǎo",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "塔",
+      "pinyin": "tǎ",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "餐",
+      "pinyin": "cān",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

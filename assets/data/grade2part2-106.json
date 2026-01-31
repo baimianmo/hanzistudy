@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文5 千人糕",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "能",
+      "pinyin": "néng",
+      "stroke_order": "撇折、点、竖、横折钩、横、横、撇、竖弯钩、撇、竖弯钩",
+      "words": ["能力", "能够", "可能"]
+    },
+    {
+      "character": "桌",
+      "pinyin": "zhuō",
+      "stroke_order": "竖、横、竖、横、撇、捺、横、竖、撇、捺",
+      "words": ["桌子", "课桌", "书桌"]
+    },
+    {
+      "character": "味",
+      "pinyin": "wèi",
+      "stroke_order": "竖、横折、横、横、横、竖、撇、捺、点、点",
+      "words": ["味道", "口味", "香味"]
+    },
+    {
+      "character": "买",
+      "pinyin": "mǎi",
+      "stroke_order": "横撇、点、点、横、竖、横折、撇、点",
+      "words": ["买卖", "买菜", "购买"]
+    },
+    {
+      "character": "具",
+      "pinyin": "jù",
+      "stroke_order": "竖、横折、横、横、横、横、撇、点、点、横、竖",
+      "words": ["工具", "文具", "具体"]
+    },
+    {
+      "character": "甘",
+      "pinyin": "gān",
+      "stroke_order": "横、竖、竖、横、横、竖、横",
+      "words": ["甘甜", "甘心", "甘苦"]
+    },
+    {
+      "character": "甜",
+      "pinyin": "tián",
+      "stroke_order": "撇、横、竖、竖、横折、横、横、竖、竖、横、横",
+      "words": ["甜蜜", "甜味", "香甜"]
+    },
+    {
+      "character": "菜",
+      "pinyin": "cài",
+      "stroke_order": "横、竖、竖、撇、捺、点、横撇、撇、点、横、竖、撇、捺",
+      "words": ["白菜", "青菜", "蔬菜"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

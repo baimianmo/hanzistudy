@@ -1,0 +1,48 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地三",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "津",
+      "pinyin": "jīn",
+      "stroke_order": "点、点、提、横折、横、横、竖、横、竖、横折、横、横",
+      "words": ["天津", "津液", "津津有味"]
+    },
+    {
+      "character": "溜",
+      "pinyin": "liū",
+      "stroke_order": "点、点、提、撇、竖提、点、横折钩、撇、竖、横折、横、横、竖钩、横",
+      "words": ["滑溜", "溜冰", "溜达"]
+    },
+    {
+      "character": "辣",
+      "pinyin": "là",
+      "stroke_order": "横、竖、横折、横、竖、撇、捺、横、竖、撇、捺、横、撇、竖弯钩、撇、捺",
+      "words": ["辣椒", "麻辣", "辛辣"]
+    },
+    {
+      "character": "乎",
+      "pinyin": "hū",
+      "stroke_order": "撇、点、撇、横、竖钩",
+      "words": ["几乎", "似乎", "在乎"]
+    },
+    {
+      "character": "喷",
+      "pinyin": "pēn",
+      "stroke_order": "竖、横折、横、横、竖、点、撇、横、竖、横折、竖、横、横、横、撇、捺",
+      "words": ["喷泉", "喷洒", "喷射"]
+    },
+    {
+      "character": "腻",
+      "pinyin": "nì",
+      "stroke_order": "撇、横折钩、横、横、横、横、横、竖、横折、横、横、横、撇、斜钩、撇、点",
+      "words": ["油腻", "腻烦", "腻味"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 6,
+    "created_date": "2026-01-28"
+  }
+}

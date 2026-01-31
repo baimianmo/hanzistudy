@@ -1,0 +1,73 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地四",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "陀",
+      "pinyin": "tuó",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "螺",
+      "pinyin": "luó",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "毽",
+      "pinyin": "jiàn",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "倒",
+      "pinyin": "dǎo",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "翁",
+      "pinyin": "wēng",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "枪",
+      "pinyin": "qiāng",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "橡",
+      "pinyin": "xiàng",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "控",
+      "pinyin": "kòng",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "坦",
+      "pinyin": "tǎn",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "克",
+      "pinyin": "kè",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地八",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "钩",
+      "pinyin": "gōu",
+      "stroke_order": "撇、横、横、横、竖提、撇、横折钩、撇折、点",
+      "words": [
+        "鱼钩",
+        "钩子",
+        "挂钩"
+      ]
+    },
+    {
+      "character": "铲",
+      "pinyin": "chǎn",
+      "stroke_order": "撇、横、横、横、竖提、点、横、点、撇、横、撇、撇、横、竖",
+      "words": [
+        "铁铲",
+        "铲子",
+        "铲除"
+      ]
+    },
+    {
+      "character": "梅",
+      "pinyin": "méi",
+      "stroke_order": "横、竖、撇、点、撇、横、竖折、横折钩、点、横、点",
+      "words": [
+        "梅花",
+        "梅子",
+        "杨梅"
+      ]
+    },
+    {
+      "character": "柿",
+      "pinyin": "shì",
+      "stroke_order": "横、竖、撇、点、点、横撇、竖、点、横、竖、撇、捺",
+      "words": [
+        "柿子",
+        "柿饼",
+        "番茄"
+      ]
+    },
+    {
+      "character": "源",
+      "pinyin": "yuán",
+      "stroke_order": "点、点、提、横、撇、撇、竖、横折、横、横、竖钩、横、撇、捺",
+      "words": [
+        "源头",
+        "水源",
+        "来源"
+      ]
+    },
+    {
+      "character": "涨",
+      "pinyin": "zhǎng",
+      "stroke_order": "点、点、提、横折、横、竖、横、横、竖、横折、横、撇、竖弯钩、撇、点、撇、横撇、捺",
+      "words": [
+        "涨潮",
+        "涨价",
+        "上涨"
+      ]
+    },
+    {
+      "character": "炬",
+      "pinyin": "jù",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "灿",
+      "pinyin": "càn",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "垮",
+      "pinyin": "kuǎ",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "坟",
+      "pinyin": "fén",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

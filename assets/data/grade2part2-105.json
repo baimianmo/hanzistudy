@@ -1,0 +1,54 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文4 雷锋叔叔，你在哪里",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "冒",
+      "pinyin": "mào",
+      "stroke_order": "竖、横折、横、横、竖、横折、横、横",
+      "words": ["冒险", "冒雨", "冒犯"]
+    },
+    {
+      "character": "留",
+      "pinyin": "liú",
+      "stroke_order": "撇、竖提、点、横折钩、撇、竖、横折、横",
+      "words": ["留下", "保留", "留学"]
+    },
+    {
+      "character": "弯",
+      "pinyin": "wān",
+      "stroke_order": "点、横、竖、竖、点、点、横、竖、横折、横、竖折折钩、撇折、点",
+      "words": ["弯弯", "弯曲", "弯路"]
+    },
+    {
+      "character": "背",
+      "pinyin": "bēi",
+      "stroke_order": "竖、横、提、横折钩、撇、竖弯钩、竖、横折、横、横",
+      "words": ["背着", "背包", "背带"]
+    },
+    {
+      "character": "洒",
+      "pinyin": "sǎ",
+      "stroke_order": "点、点、提、横、竖、横折、撇、竖折、横、横",
+      "words": ["洒下", "洒水", "洒落"]
+    },
+    {
+      "character": "温",
+      "pinyin": "wēn",
+      "stroke_order": "点、点、提、竖、横折、横、横、竖、横折、横、横、竖",
+      "words": ["温暖", "温度", "温泉"]
+    },
+    {
+      "character": "暖",
+      "pinyin": "nuǎn",
+      "stroke_order": "竖、横折、横、横、撇、横撇、横折、横、横、撇、横撇、捺",
+      "words": ["温暖", "暖和", "暖气"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 7,
+    "created_date": "2026-01-28"
+  }
+}

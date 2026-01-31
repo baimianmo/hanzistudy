@@ -1,0 +1,61 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文23 祖先的摇篮",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "博",
+      "pinyin": "bó",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "馆",
+      "pinyin": "guǎn",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "览",
+      "pinyin": "lǎn",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "育",
+      "pinyin": "yù",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "研",
+      "pinyin": "yán",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "究",
+      "pinyin": "jiū",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "哨",
+      "pinyin": "shào",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "诊",
+      "pinyin": "zhěn",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

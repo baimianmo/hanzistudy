@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "识字4 中国美食",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "烧",
+      "pinyin": "shāo",
+      "stroke_order": "点、撇、撇、点、横、斜钩、撇、横、撇、竖弯钩",
+      "words": ["烧烤", "发烧", "红烧"]
+    },
+    {
+      "character": "茄",
+      "pinyin": "qié",
+      "stroke_order": "横、竖、竖、横撇、撇、竖、横折钩、横",
+      "words": ["茄子", "番茄", "茄盒"]
+    },
+    {
+      "character": "烤",
+      "pinyin": "kǎo",
+      "stroke_order": "点、撇、撇、点、横、竖、横、撇、竖弯钩",
+      "words": ["烤鸭", "烧烤", "烤箱"]
+    },
+    {
+      "character": "鸭",
+      "pinyin": "yā",
+      "stroke_order": "竖、横折、横、横、竖、撇、横折钩、点、竖折折钩、横",
+      "words": ["烤鸭", "鸭子", "鸭梨"]
+    },
+    {
+      "character": "肉",
+      "pinyin": "ròu",
+      "stroke_order": "竖、横折钩、撇、点、撇、点",
+      "words": ["羊肉", "猪肉", "肉类"]
+    },
+    {
+      "character": "鸡",
+      "pinyin": "jī",
+      "stroke_order": "横撇、点、撇、横折钩、点、竖折折钩、横",
+      "words": ["小鸡", "公鸡", "鸡蛋"]
+    },
+    {
+      "character": "蛋",
+      "pinyin": "dàn",
+      "stroke_order": "横折钩、竖、横、撇、捺、竖、横折、横、竖、横、点",
+      "words": ["鸡蛋", "鸭蛋", "蛋糕"]
+    },
+    {
+      "character": "炒",
+      "pinyin": "chǎo",
+      "stroke_order": "点、撇、撇、点、竖、撇、点",
+      "words": ["炒菜", "炒饭", "热炒"]
+    },
+    {
+      "character": "饭",
+      "pinyin": "fàn",
+      "stroke_order": "撇、横撇、竖提、撇、撇、横撇、捺",
+      "words": ["米饭", "吃饭", "早饭"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-29"
+  }
+}

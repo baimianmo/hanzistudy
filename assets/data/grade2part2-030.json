@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文23 祖先的摇篮",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "祖",
+      "pinyin": "zǔ",
+      "stroke_order": "点、横撇、竖、点、竖、横折、横、横、横",
+      "words": ["祖先", "祖国", "祖宗"]
+    },
+    {
+      "character": "掏",
+      "pinyin": "tāo",
+      "stroke_order": "横、竖钩、提、横折钩、撇、竖、横折、横",
+      "words": ["掏鸟蛋", "掏出", "掏钱"]
+    },
+    {
+      "character": "逗",
+      "pinyin": "dòu",
+      "stroke_order": "横、竖、横折、横、点、撇、横、竖、横、横、竖钩、点、点",
+      "words": ["逗笑", "逗乐", "逗号"]
+    },
+    {
+      "character": "蔷",
+      "pinyin": "qiáng",
+      "stroke_order": "横、竖、竖、横、竖、提、竖、撇、横、竖、横折、横、竖、横折、横、横、竖、横",
+      "words": ["蔷薇", "蔷蘼"]
+    },
+    {
+      "character": "薇",
+      "pinyin": "wēi",
+      "stroke_order": "横、竖、竖、撇、撇、竖、撇、横、竖、横折、横、竖、横折、横、横、竖、横",
+      "words": ["蔷薇", "紫薇"]
+    },
+    {
+      "character": "逮",
+      "pinyin": "dǎi",
+      "stroke_order": "横折、横、竖、横、横、竖钩、点、提、撇、点、点、斜钩、点、点",
+      "words": ["逮住", "逮住", "逮捕"]
+    },
+    {
+      "character": "蝈",
+      "pinyin": "guō",
+      "stroke_order": "竖、横折、横、竖、横、点、点、横折、横、撇、竖、横折、横",
+      "words": ["蝈蝈", "蝈蝈儿"]
+    },
+    {
+      "character": "忆",
+      "pinyin": "yì",
+      "stroke_order": "点、点、竖、横折、横、竖弯钩",
+      "words": ["回忆", "记忆", "追忆"]
+    },
+    {
+      "character": "蓝",
+      "pinyin": "lán",
+      "stroke_order": "横、竖、竖、竖、竖、撇、横、点、竖、横折、竖、竖、横、横、竖、撇、捺",
+      "words": ["蓝天", "蓝色", "蔚蓝"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

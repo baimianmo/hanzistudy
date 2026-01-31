@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文14 古诗二首",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "诗",
+      "pinyin": "shī",
+      "stroke_order": "点、横折提、横、竖、横、横、竖钩、点、点、横、竖钩、点、点",
+      "words": ["古诗", "诗歌", "诗人"]
+    },
+    {
+      "character": "村",
+      "pinyin": "cūn",
+      "stroke_order": "横、竖、撇、点、横、竖钩、点、横、竖钩、点、横、竖钩、点",
+      "words": ["村庄", "农村", "乡村"]
+    },
+    {
+      "character": "童",
+      "pinyin": "tóng",
+      "stroke_order": "点、横、点、撇、横、竖、横折、横、横、竖、横、横、撇、捺、横、竖、横",
+      "words": ["儿童", "童年", "童话"]
+    },
+    {
+      "character": "碧",
+      "pinyin": "bì",
+      "stroke_order": "横、横、竖、横、竖、横折、横、横、竖、横折、横、横、横、撇、竖、横折、横、横、点、横撇、捺",
+      "words": ["碧绿", "碧玉", "碧蓝"]
+    },
+    {
+      "character": "妆",
+      "pinyin": "zhuāng",
+      "stroke_order": "点、提、竖、横、竖、横折、撇、竖弯钩、横、竖、横",
+      "words": ["化妆", "梳妆", "妆容"]
+    },
+    {
+      "character": "绿",
+      "pinyin": "lǜ",
+      "stroke_order": "横折、横折、提、横折、横、竖、横折、横、竖、横、横、竖钩、点、点、横撇、捺",
+      "words": ["绿色", "绿叶", "翠绿"]
+    },
+    {
+      "character": "丝",
+      "pinyin": "sī",
+      "stroke_order": "横折、横折、横、横折、横、横、横折、横、横、横折、横、横",
+      "words": ["丝线", "丝绸", "细丝"]
+    },
+    {
+      "character": "剪",
+      "pinyin": "jiǎn",
+      "stroke_order": "点、撇、横、竖、横折钩、横、横、竖、竖钩、横折钩、撇、横撇、捺、点、横折折撇、捺",
+      "words": ["剪刀", "剪纸", "剪断"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

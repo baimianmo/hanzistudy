@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文10 我是一只小虫子",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "股",
+      "pinyin": "gǔ",
+      "stroke_order": "撇、横折钩、横、横、竖提、撇、捺",
+      "words": ["屁股", "股票", "股份"]
+    },
+    {
+      "character": "尿",
+      "pinyin": "niào",
+      "stroke_order": "横折、横、撇、竖提、撇、捺、点、点、点、点",
+      "words": ["尿液", "撒尿", "尿床"]
+    },
+    {
+      "character": "净",
+      "pinyin": "jìng",
+      "stroke_order": "点、提、撇、横撇、横折、横、横、竖钩、竖",
+      "words": ["干净", "净化", "洁净"]
+    },
+    {
+      "character": "屎",
+      "pinyin": "shǐ",
+      "stroke_order": "横折、横、撇、横、竖、撇、捺、点、点、点、点",
+      "words": ["粪便", "拉屎", "狗屎"]
+    },
+    {
+      "character": "幸",
+      "pinyin": "xìng",
+      "stroke_order": "横、竖、横、横、竖、横、点、撇、横、横、竖",
+      "words": ["幸福", "幸运", "不幸"]
+    },
+    {
+      "character": "使",
+      "pinyin": "shǐ",
+      "stroke_order": "撇、竖、横、竖、横折、横、撇、捺、点",
+      "words": ["使用", "天使", "使命"]
+    },
+    {
+      "character": "劲",
+      "pinyin": "jìn",
+      "stroke_order": "横撇、点、横、竖、提、横折钩、撇",
+      "words": ["使劲", "劲头", "干劲"]
+    },
+    {
+      "character": "婶",
+      "pinyin": "shěn",
+      "stroke_order": "撇点、撇、横、点、点、横撇、横、竖、撇、捺、横、竖、撇、捺",
+      "words": ["婶婶", "婶母", "大婶"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

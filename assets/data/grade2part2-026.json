@@ -1,0 +1,91 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地五",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "厨",
+      "pinyin": "chú",
+      "stroke_order": "横、撇、竖、横折、横、横、竖钩、提、横折钩、撇、撇、横、撇、捺",
+      "words": [
+        "厨房",
+        "厨师",
+        "下厨"
+      ]
+    },
+    {
+      "character": "厕",
+      "pinyin": "cè",
+      "stroke_order": "横折钩、撇、撇、横、撇、点、竖钩、竖、撇、点、撇、点",
+      "words": [
+        "厕所",
+        "洗手间",
+        "公厕"
+      ]
+    },
+    {
+      "character": "厢",
+      "pinyin": "xiāng",
+      "stroke_order": "横、竖、横折、横、横、竖、撇、点、竖、横折、横、横、横、竖、横",
+      "words": [
+        "车厢",
+        "厢房",
+        "包厢"
+      ]
+    },
+    {
+      "character": "厦",
+      "pinyin": "shà",
+      "stroke_order": "横、撇、横、撇、竖、撇、撇、横、竖、横折、横、横、横、撇、捺",
+      "words": [
+        "大厦",
+        "高楼",
+        "广厦"
+      ]
+    },
+    {
+      "character": "穴",
+      "pinyin": "xué",
+      "stroke_order": "点、点、横撇、撇、点、横、竖、横",
+      "words": [
+        "洞穴",
+        "穴位",
+        "穴居"
+      ]
+    },
+    {
+      "character": "窟",
+      "pinyin": "kū",
+      "stroke_order": "点、点、横撇、撇、点、横折、横、撇、竖、横折、横、横、竖折、横",
+      "words": [
+        "窟窿",
+        "石窟",
+        "洞窟"
+      ]
+    },
+    {
+      "character": "窿",
+      "pinyin": "lóng",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "窑",
+      "pinyin": "yáo",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "窄",
+      "pinyin": "zhǎi",
+      "stroke_order": "",
+      "words": []
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

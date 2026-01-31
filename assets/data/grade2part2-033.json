@@ -1,0 +1,93 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地七",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "帚",
+      "pinyin": "zhǒu",
+      "stroke_order": "横折、横、横、点、横撇、竖、横折、横、竖、横折钩、竖、横、横、横撇、捺、点、横撇、捺",
+      "words": [
+        "扫帚",
+        "笤帚",
+        "帚星"
+      ]
+    },
+    {
+      "character": "抹",
+      "pinyin": "mǒ",
+      "stroke_order": "横、竖钩、提、横、横、竖、撇、捺、横、横、竖钩、点、点、横折折撇、捺",
+      "words": [
+        "抹布",
+        "涂抹",
+        "抹黑"
+      ]
+    },
+    {
+      "character": "拖",
+      "pinyin": "tuō",
+      "stroke_order": "横、竖钩、提、撇、横、横折钩、竖、竖折、横、横、竖钩、点",
+      "words": [
+        "拖把",
+        "拖拉",
+        "拖延"
+      ]
+    },
+    {
+      "character": "桶",
+      "pinyin": "tǒng",
+      "stroke_order": "横、竖、横、横、竖、撇、捺、横、竖钩、点、点、横撇、点、横折折折钩、竖",
+      "words": [
+        "水桶",
+        "木桶",
+        "铁桶"
+      ]
+    },
+    {
+      "character": "簸",
+      "pinyin": "bò",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "箕",
+      "pinyin": "jī",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "玻",
+      "pinyin": "bō",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "璃",
+      "pinyin": "lí",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "垃",
+      "pinyin": "lā",
+      "stroke_order": "",
+      "words": []
+    },
+    {
+      "character": "圾",
+      "pinyin": "jī",
+      "stroke_order": "横、竖、提、横、撇折、点、撇、横撇、捺、点、横折折撇、捺",
+      "words": [
+        "垃圾",
+        "圾桶",
+        "圾物"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28",
+    "updated_date": "2026-01-29"
+  }
+}

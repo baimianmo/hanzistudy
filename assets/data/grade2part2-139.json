@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "识字3 “贝”的故事",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "贝",
+      "pinyin": "bèi",
+      "stroke_order": "竖、横折、撇、点",
+      "words": ["贝壳", "宝贝", "分贝"]
+    },
+    {
+      "character": "壳",
+      "pinyin": "ké",
+      "stroke_order": "横、竖、横、点、横撇、撇、横折弯钩",
+      "words": ["贝壳", "蛋壳", "脑壳"]
+    },
+    {
+      "character": "甲",
+      "pinyin": "jiǎ",
+      "stroke_order": "竖、横折、横、横、竖",
+      "words": ["甲骨文", "甲虫", "指甲"]
+    },
+    {
+      "character": "骨",
+      "pinyin": "gǔ",
+      "stroke_order": "竖、横折、横折、点、横撇、竖、横折钩、横、横",
+      "words": ["骨头", "甲骨", "排骨"]
+    },
+    {
+      "character": "钱",
+      "pinyin": "qián",
+      "stroke_order": "撇、横、横、横、竖提、横、横、斜钩、撇、点",
+      "words": ["钱币", "金钱", "花钱"]
+    },
+    {
+      "character": "币",
+      "pinyin": "bì",
+      "stroke_order": "撇、竖、横折钩、竖",
+      "words": ["钱币", "货币", "硬币"]
+    },
+    {
+      "character": "与",
+      "pinyin": "yǔ",
+      "stroke_order": "横、竖折折钩、横",
+      "words": ["给与", "参与", "与其"]
+    },
+    {
+      "character": "财",
+      "pinyin": "cái",
+      "stroke_order": "竖、横折、撇、点、横、竖钩、撇",
+      "words": ["钱财", "财产", "发财"]
+    },
+    {
+      "character": "关",
+      "pinyin": "guān",
+      "stroke_order": "点、撇、横、横、撇、捺",
+      "words": ["关门", "有关", "关心"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-29"
+  }
+}

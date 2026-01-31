@@ -1,0 +1,102 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "识字2 传统节日",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "传",
+      "pinyin": "chuán",
+      "stroke_order": "撇、竖、横、横、撇折、点",
+      "words": ["传统", "传说", "传达"]
+    },
+    {
+      "character": "统",
+      "pinyin": "tǒng",
+      "stroke_order": "撇折、撇折、提、撇、横、撇折、点、竖弯钩",
+      "words": ["传统", "系统", "统一"]
+    },
+    {
+      "character": "贴",
+      "pinyin": "tiē",
+      "stroke_order": "竖、横折、撇、点、竖、横折、撇、点",
+      "words": ["贴画", "粘贴", "体贴"]
+    },
+    {
+      "character": "宵",
+      "pinyin": "xiāo",
+      "stroke_order": "点、点、横撇、竖、点、撇、竖、横折钩、横、横",
+      "words": ["元宵", "通宵", "夜宵"]
+    },
+    {
+      "character": "巷",
+      "pinyin": "xiàng",
+      "stroke_order": "横、竖、竖、横、撇、捺、横折、横、竖弯钩",
+      "words": ["巷子", "小巷", "巷道"]
+    },
+    {
+      "character": "祭",
+      "pinyin": "jì",
+      "stroke_order": "撇、横撇、捺、横、横、竖钩、撇、点",
+      "words": ["祭扫", "祭奠", "公祭"]
+    },
+    {
+      "character": "舟",
+      "pinyin": "zhōu",
+      "stroke_order": "撇、撇、横折钩、点、横、点",
+      "words": ["龙舟", "轻舟", "方舟"]
+    },
+    {
+      "character": "艾",
+      "pinyin": "ài",
+      "stroke_order": "横、竖、竖、撇、捺",
+      "words": ["艾草", "艾叶", "艾灸"]
+    },
+    {
+      "character": "堂",
+      "pinyin": "táng",
+      "stroke_order": "竖、点、撇、点、横撇、竖、横折、横、竖、横",
+      "words": ["课堂", "礼堂", "大堂"]
+    },
+    {
+      "character": "乞",
+      "pinyin": "qǐ",
+      "stroke_order": "撇、横、横折弯钩",
+      "words": ["乞巧", "乞求", "乞丐"]
+    },
+    {
+      "character": "巧",
+      "pinyin": "qiǎo",
+      "stroke_order": "横、竖、提、撇、横、竖折折钩",
+      "words": ["乞巧", "灵巧", "巧妙"]
+    },
+    {
+      "character": "郎",
+      "pinyin": "láng",
+      "stroke_order": "点、横折、横、横、竖提、横折钩、竖",
+      "words": ["牛郎", "新郎", "郎中"]
+    },
+    {
+      "character": "饼",
+      "pinyin": "bǐng",
+      "stroke_order": "撇、横撇、竖提、点、撇、横、横、撇、竖",
+      "words": ["月饼", "饼干", "大饼"]
+    },
+    {
+      "character": "赏",
+      "pinyin": "shǎng",
+      "stroke_order": "竖、点、撇、点、横撇、竖、横折、撇、点",
+      "words": ["赏月", "观赏", "奖赏"]
+    },
+    {
+      "character": "菊",
+      "pinyin": "jú",
+      "stroke_order": "横、竖、竖、撇、横折钩、点、撇、横、竖、撇、捺",
+      "words": ["菊花", "赏菊", "菊坛"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 15,
+    "created_date": "2026-01-29"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文20 蜘蛛开店",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "店",
+      "pinyin": "diàn",
+      "stroke_order": "点、横、撇、竖、横、竖、横折、横、横、竖钩、点、点、横撇、捺",
+      "words": ["商店", "开店", "店铺"]
+    },
+    {
+      "character": "决",
+      "pinyin": "jué",
+      "stroke_order": "点、提、横折、横、撇、捺、点、点、横撇、捺",
+      "words": ["决定", "决心", "决断"]
+    },
+    {
+      "character": "定",
+      "pinyin": "dìng",
+      "stroke_order": "点、点、横撇、横、竖、横、撇、捺、横、竖钩、点、点",
+      "words": ["一定", "确定", "规定"]
+    },
+    {
+      "character": "商",
+      "pinyin": "shāng",
+      "stroke_order": "点、横、撇、点、竖、横折钩、撇、点、竖、横折、横、撇、竖、横折、横",
+      "words": ["商店", "商量", "商业"]
+    },
+    {
+      "character": "夫",
+      "pinyin": "fū",
+      "stroke_order": "横、横、撇、捺",
+      "words": ["工夫", "夫人", "农夫"]
+    },
+    {
+      "character": "终",
+      "pinyin": "zhōng",
+      "stroke_order": "撇折、撇折、提、撇、横撇、捺、点、点、横、竖、横、横、竖钩、点、点、横",
+      "words": ["终于", "最终", "终点"]
+    },
+    {
+      "character": "于",
+      "pinyin": "yú",
+      "stroke_order": "横、横、竖钩",
+      "words": ["终于", "于是", "对于"]
+    },
+    {
+      "character": "换",
+      "pinyin": "huàn",
+      "stroke_order": "横、竖钩、提、撇、捺、竖、横折、横、竖、横折、撇、竖弯钩、撇、捺",
+      "words": ["交换", "更换", "换来"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

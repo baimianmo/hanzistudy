@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文13 小马过河",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "愿",
+      "pinyin": "yuàn",
+      "stroke_order": "横、撇、撇、竖、横折、横、横、竖钩、点、点、点、点、点、斜钩、点、点、点、点",
+      "words": ["愿意", "愿望", "心愿"]
+    },
+    {
+      "character": "意",
+      "pinyin": "yì",
+      "stroke_order": "点、横、点、撇、横、竖、横折、横、横、点、斜钩、点、点",
+      "words": ["意思", "意见", "满意"]
+    },
+    {
+      "character": "麦",
+      "pinyin": "mài",
+      "stroke_order": "横、横、竖、横、撇、横撇、捺、横、竖、撇、捺、撇、竖弯钩、撇、点",
+      "words": ["麦子", "小麦", "麦田"]
+    },
+    {
+      "character": "该",
+      "pinyin": "gāi",
+      "stroke_order": "点、横折提、点、横、撇折、撇、撇、点、横、撇、竖弯钩、撇、点",
+      "words": ["应该", "活该", "该当"]
+    },
+    {
+      "character": "伯",
+      "pinyin": "bó",
+      "stroke_order": "撇、竖、竖、横折、横、横、撇、竖弯钩",
+      "words": ["伯伯", "伯父", "大伯"]
+    },
+    {
+      "character": "刻",
+      "pinyin": "kè",
+      "stroke_order": "点、横、撇折、撇、撇、点、竖、竖钩、横、竖、撇、捺",
+      "words": ["立刻", "刻苦", "雕刻"]
+    },
+    {
+      "character": "突",
+      "pinyin": "tū",
+      "stroke_order": "点、点、横撇、撇、点、横、撇折、点、撇、横撇、捺、点",
+      "words": ["突然", "突出", "突破"]
+    },
+    {
+      "character": "掉",
+      "pinyin": "diào",
+      "stroke_order": "横、竖钩、提、横、竖、横折、横、横、横、竖、横、竖",
+      "words": ["掉队", "掉下", "丢掉"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

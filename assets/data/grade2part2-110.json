@@ -1,0 +1,66 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文7 彩色的梦",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "彩",
+      "pinyin": "cǎi",
+      "stroke_order": "撇、点、点、撇、横、竖、撇、捺、撇、撇、撇",
+      "words": ["彩色", "彩虹", "精彩"]
+    },
+    {
+      "character": "梦",
+      "pinyin": "mèng",
+      "stroke_order": "横、竖、撇、点、横、竖、撇、捺、撇、横撇、点、横折折撇、捺",
+      "words": ["梦想", "做梦", "美梦"]
+    },
+    {
+      "character": "森",
+      "pinyin": "sēn",
+      "stroke_order": "横、竖、撇、捺、横、竖、撇、点、横、竖、撇、捺",
+      "words": ["森林", "阴森", "森严"]
+    },
+    {
+      "character": "拉",
+      "pinyin": "lā",
+      "stroke_order": "横、竖钩、提、点、横、点、撇、横、竖、横",
+      "words": ["拉手", "拉面", "拉车"]
+    },
+    {
+      "character": "结",
+      "pinyin": "jié",
+      "stroke_order": "撇折、撇折、提、横、竖、横、竖、横折、横",
+      "words": ["结果", "结束", "团结"]
+    },
+    {
+      "character": "苹",
+      "pinyin": "píng",
+      "stroke_order": "横、竖、竖、横、点、撇、横、竖",
+      "words": ["苹果", "苹婆", "苹风"]
+    },
+    {
+      "character": "般",
+      "pinyin": "bān",
+      "stroke_order": "撇、撇、横折钩、点、横、点、撇、横折弯、横撇、捺",
+      "words": ["一般", "般配", "全般"]
+    },
+    {
+      "character": "精",
+      "pinyin": "jīng",
+      "stroke_order": "点、撇、横、竖、撇、点、横、横、竖、横、竖、横折、横、横、横、横",
+      "words": ["精彩", "精神", "精心"]
+    },
+    {
+      "character": "灵",
+      "pinyin": "líng",
+      "stroke_order": "横折、横、竖、横、横、撇、捺、点、横撇、捺",
+      "words": ["灵活", "机灵", "灵魂"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 9,
+    "created_date": "2026-01-28"
+  }
+}

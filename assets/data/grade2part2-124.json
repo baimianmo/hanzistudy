@@ -1,0 +1,60 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文19 大象的耳朵",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "扇",
+      "pinyin": "shàn",
+      "stroke_order": "点、横折、横、撇、横折钩、点、提、横折钩、点、提、撇、横折弯、横折、撇",
+      "words": ["扇子", "风扇", "折扇"]
+    },
+    {
+      "character": "慢",
+      "pinyin": "màn",
+      "stroke_order": "点、点、竖、竖、横折、横、横、竖、横折、竖、竖、横、竖、横折、横",
+      "words": ["慢慢", "慢走", "缓慢"]
+    },
+    {
+      "character": "遇",
+      "pinyin": "yù",
+      "stroke_order": "竖、横折、横、横、竖、横折、横、横、竖、提、点、点、横折折撇、捺",
+      "words": ["遇到", "遇见", "相遇"]
+    },
+    {
+      "character": "兔",
+      "pinyin": "tù",
+      "stroke_order": "撇、横撇、竖、横折、横、撇、竖弯钩、撇、点、撇、横折弯、横折、撇",
+      "words": ["兔子", "白兔", "野兔"]
+    },
+    {
+      "character": "安",
+      "pinyin": "ān",
+      "stroke_order": "点、点、横撇、撇点、撇、横",
+      "words": ["安全", "安心", "平安"]
+    },
+    {
+      "character": "根",
+      "pinyin": "gēn",
+      "stroke_order": "横、竖、撇、点、横折、横、横、竖提、撇、捺",
+      "words": ["根本", "树根", "根据"]
+    },
+    {
+      "character": "痛",
+      "pinyin": "tòng",
+      "stroke_order": "点、横、撇、点、提、横撇、点、竖、横折钩、横、横、竖、竖钩",
+      "words": ["头痛", "痛苦", "疼痛"]
+    },
+    {
+      "character": "最",
+      "pinyin": "zuì",
+      "stroke_order": "竖、横折、横、横、横、竖、竖、横、横、提、横撇、捺、横、竖、撇、捺",
+      "words": ["最后", "最好", "最近"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 8,
+    "created_date": "2026-01-28"
+  }
+}

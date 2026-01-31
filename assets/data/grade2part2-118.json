@@ -1,0 +1,48 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "语文园地四",
+  "category": "写字表",
+  "characters": [
+    {
+      "character": "含",
+      "pinyin": "hán",
+      "stroke_order": "撇、捺、点、横撇、竖、横折、横、横、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["包含", "含义", "含笑"]
+    },
+    {
+      "character": "迎",
+      "pinyin": "yíng",
+      "stroke_order": "撇、竖提、横折、竖、横折、横、横、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["欢迎", "迎接", "迎面"]
+    },
+    {
+      "character": "留",
+      "pinyin": "liú",
+      "stroke_order": "撇、竖提、点、横折钩、撇、竖、横折、横",
+      "words": ["留下", "保留", "留学"]
+    },
+    {
+      "character": "荡",
+      "pinyin": "dàng",
+      "stroke_order": "横、竖、竖、点、点、提、横折折折钩、撇、撇、横、横、竖折折钩、撇、撇、横、横、竖",
+      "words": ["荡秋千", "飘荡", "荡漾"]
+    },
+    {
+      "character": "满",
+      "pinyin": "mǎn",
+      "stroke_order": "点、点、提、横、竖、竖、横、竖、横折、撇、点、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["满意", "充满", "满足"]
+    },
+    {
+      "character": "敬",
+      "pinyin": "jìng",
+      "stroke_order": "横、竖、竖、撇、横折、横、竖、横折、横、撇、竖弯钩、撇、点、撇、横折弯、撇、捺",
+      "words": ["尊敬", "敬爱", "敬礼"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 6,
+    "created_date": "2026-01-28"
+  }
+}

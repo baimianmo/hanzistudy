@@ -1,0 +1,72 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "课文20 蜘蛛开店",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "蜘",
+      "pinyin": "zhī",
+      "stroke_order": "竖、横折、横、竖、横、点、撇、横、横、撇、点、竖、横折、横、横、横",
+      "words": ["蜘蛛", "蜘蛛网"]
+    },
+    {
+      "character": "蛛",
+      "pinyin": "zhū",
+      "stroke_order": "竖、横折、横、竖、横、点、撇、横、横、竖、撇、捺、撇、捺",
+      "words": ["蜘蛛", "蛛网", "蛛丝"]
+    },
+    {
+      "character": "店",
+      "pinyin": "diàn",
+      "stroke_order": "点、横、撇、竖、横、竖、横折、横、横、竖钩、点、点、横撇、捺",
+      "words": ["商店", "开店", "店铺"]
+    },
+    {
+      "character": "蹲",
+      "pinyin": "dūn",
+      "stroke_order": "竖、横折、横、竖、横、竖、提、点、横、竖、横折、横、竖钩、点、提、撇、捺、横、竖、横",
+      "words": ["蹲下", "蹲着", "蹲点"]
+    },
+    {
+      "character": "寂",
+      "pinyin": "jì",
+      "stroke_order": "点、点、横撇、横、横、竖、竖、横、竖钩、点、点、斜钩、点、点",
+      "words": ["寂寞", "寂静", "孤寂"]
+    },
+    {
+      "character": "寞",
+      "pinyin": "mò",
+      "stroke_order": "点、点、横撇、横、竖、竖、横、横、竖、撇、捺、横、竖、撇、捺",
+      "words": ["寂寞", "落寞", "冷寞"]
+    },
+    {
+      "character": "罩",
+      "pinyin": "zhào",
+      "stroke_order": "竖、横折、竖、竖、横、竖、横折、横、竖、横、横、横、竖、横、竖、横、横、竖",
+      "words": ["口罩", "笼罩", "罩住"]
+    },
+    {
+      "character": "编",
+      "pinyin": "biān",
+      "stroke_order": "撇折、撇折、提、点、横折、横、撇、竖、横折钩、横、竖、竖、横折、横、横、撇、竖弯钩、撇、点、撇、捺",
+      "words": ["编织", "编写", "编号"]
+    },
+    {
+      "character": "顾",
+      "pinyin": "gù",
+      "stroke_order": "横、撇、横折钩、竖提、横、撇、竖、横折、横、横、横、撇、点",
+      "words": ["顾客", "照顾", "回顾"]
+    },
+    {
+      "character": "付",
+      "pinyin": "fù",
+      "stroke_order": "撇、竖、横、竖钩、点、点、横、竖钩、点",
+      "words": ["付钱", "支付", "交付"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 10,
+    "created_date": "2026-01-28"
+  }
+}

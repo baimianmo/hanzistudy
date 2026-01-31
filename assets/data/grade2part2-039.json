@@ -1,0 +1,108 @@
+{
+  "grade": "二年级下册",
+  "publisher": "人教版",
+  "lesson": "识字3 “贝”的故事",
+  "category": "识字表",
+  "characters": [
+    {
+      "character": "甲",
+      "pinyin": "jiǎ",
+      "stroke_order": "竖、横折、横、横、竖",
+      "words": ["甲骨文", "甲虫", "指甲"]
+    },
+    {
+      "character": "骨",
+      "pinyin": "gǔ",
+      "stroke_order": "竖、横折、横折、点、横撇、竖、横折钩、横、横",
+      "words": ["骨头", "甲骨", "排骨"]
+    },
+    {
+      "character": "类",
+      "pinyin": "lèi",
+      "stroke_order": "点、撇、横、竖、撇、捺、横、竖、撇、点、横、撇、捺",
+      "words": ["种类", "分类", "人类"]
+    },
+    {
+      "character": "漂",
+      "pinyin": "piào",
+      "stroke_order": "点、点、提、横、竖、横折、竖、竖、横、横、竖钩、撇、点",
+      "words": ["漂亮", "漂浮", "漂流"]
+    },
+    {
+      "character": "珍",
+      "pinyin": "zhēn",
+      "stroke_order": "横、横、竖、提、撇、捺、撇、撇、撇",
+      "words": ["珍贵", "珍惜", "珍珠"]
+    },
+    {
+      "character": "饰",
+      "pinyin": "shì",
+      "stroke_order": "撇、横撇、竖提、撇、横、竖、横折钩、竖",
+      "words": ["装饰", "饰品", "首饰"]
+    },
+    {
+      "character": "品",
+      "pinyin": "pǐn",
+      "stroke_order": "竖、横折、横、竖、横折、横、竖、横折、横",
+      "words": ["饰品", "作品", "人品"]
+    },
+    {
+      "character": "随",
+      "pinyin": "suí",
+      "stroke_order": "横折折折钩、竖、撇、横、撇、竖、横折钩、横、横、四、五、四",
+      "words": ["随身", "随时", "跟随"]
+    },
+    {
+      "character": "易",
+      "pinyin": "yì",
+      "stroke_order": "竖、横折、横、横、撇、横折钩、撇、撇",
+      "words": ["容易", "简易", "交易"]
+    },
+    {
+      "character": "损",
+      "pinyin": "sǔn",
+      "stroke_order": "横、竖钩、提、竖、横折、横、竖、横、撇、点",
+      "words": ["损坏", "损失", "破损"]
+    },
+    {
+      "character": "币",
+      "pinyin": "bì",
+      "stroke_order": "撇、竖、横折钩、竖",
+      "words": ["钱币", "货币", "硬币"]
+    },
+    {
+      "character": "财",
+      "pinyin": "cái",
+      "stroke_order": "竖、横折、撇、点、横、竖钩、撇",
+      "words": ["钱财", "财产", "发财"]
+    },
+    {
+      "character": "赚",
+      "pinyin": "zhuàn",
+      "stroke_order": "竖、横折、撇、点、点、撇、横、横折、横、横、竖、撇、捺",
+      "words": ["赚钱", "赚取", "赚头"]
+    },
+    {
+      "character": "赔",
+      "pinyin": "péi",
+      "stroke_order": "竖、横折、撇、点、点、横、点、撇、横、竖、横折、横",
+      "words": ["赔钱", "赔偿", "赔礼"]
+    },
+    {
+      "character": "购",
+      "pinyin": "gòu",
+      "stroke_order": "竖、横折、撇、点、撇、横撇、竖钩、点",
+      "words": ["购买", "购物", "采购"]
+    },
+    {
+      "character": "贫",
+      "pinyin": "pín",
+      "stroke_order": "撇、捺、横折钩、撇、竖、横折、撇、点",
+      "words": ["贫穷", "贫苦", "清贫"]
+    }
+  ],
+  "metadata": {
+    "total_characters": 16,
+    "created_date": "2026-01-29"
+  }
+}
