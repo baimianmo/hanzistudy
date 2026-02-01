@@ -351,7 +351,7 @@ class _WhackAMoleGameState extends State<WhackAMoleGame> with SingleTickerProvid
                 Positioned(
                   bottom: 5,
                   child: Container(
-                    width: constraints.maxWidth * 0.8,
+                    width: constraints.maxWidth * 0.6,
                     height: constraints.maxWidth * 0.3,
                     decoration: BoxDecoration(
                       color: Colors.black.withOpacity(0.3),
@@ -368,55 +368,127 @@ class _WhackAMoleGameState extends State<WhackAMoleGame> with SingleTickerProvid
                   left: 0,
                   right: 0,
                   height: constraints.maxHeight,
-                  child: Stack(
-                    alignment: Alignment.bottomCenter,
-                    children: [
-                      CustomPaint(
-                        size: Size(constraints.maxWidth, constraints.maxHeight),
-                        painter: MolePainter(),
-                      ),
-                      // The Character (on the belly/sign)
-                      Positioned(
-                        bottom: constraints.maxHeight * 0.05,
-                        child: Container(
-                          width: constraints.maxWidth * 0.5,
-                          height: constraints.maxWidth * 0.4,
-                          alignment: Alignment.center,
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(8),
-                            border: Border.all(color: Colors.brown, width: 2),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black.withOpacity(0.2),
-                                blurRadius: 2,
-                                offset: const Offset(0, 2),
-                              ),
-                            ],
-                          ),
-                          child: Text(
-                            char.character,
-                            style: const TextStyle(
-                              fontSize: 24,
-                              fontWeight: FontWeight.bold,
-                              fontFamily: 'KaiTi',
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
+                    child: MoleVisual(
+                      char: char,
+                      width: constraints.maxWidth,
+                      height: constraints.maxHeight,
+                    ),
                   ),
+                ],
+              ),
+            );
+          }
+        ),
+      );
+    }
+  }
+
+class MoleVisual extends StatefulWidget {
+  final HanziChar char;
+  final double width;
+  final double height;
+
+  const MoleVisual({
+    super.key,
+    required this.char,
+    required this.width,
+    required this.height,
+  });
+
+  @override
+  State<MoleVisual> createState() => _MoleVisualState();
+}
+
+class _MoleVisualState extends State<MoleVisual> with SingleTickerProviderStateMixin {
+  late AnimationController _blinkController;
+  Timer? _blinkTimer;
+
+  @override
+  void initState() {
+    super.initState();
+    _blinkController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 150),
+    );
+    _startBlinking();
+  }
+
+  void _startBlinking() {
+    _blinkTimer = Timer.periodic(const Duration(milliseconds: 3000), (timer) {
+      if (mounted && Random().nextBool()) {
+        _blink();
+      }
+    });
+  }
+
+  void _blink() {
+    _blinkController.forward().then((_) {
+      Future.delayed(const Duration(milliseconds: 50), () {
+        if (mounted) _blinkController.reverse();
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _blinkTimer?.cancel();
+    _blinkController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      alignment: Alignment.bottomCenter,
+      children: [
+        AnimatedBuilder(
+          animation: _blinkController,
+          builder: (context, child) {
+            return CustomPaint(
+              size: Size(widget.width, widget.height),
+              painter: MolePainter(blinkValue: _blinkController.value),
+            );
+          },
+        ),
+        // The Character (on the belly/sign)
+        Positioned(
+          bottom: widget.height * 0.05,
+          child: Container(
+            width: widget.width * 0.5,
+            height: widget.width * 0.4,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: Colors.brown, width: 2),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.2),
+                  blurRadius: 2,
+                  offset: const Offset(0, 2),
                 ),
               ],
             ),
-          );
-        }
-      ),
+            child: Text(
+              widget.char.character,
+              style: const TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'KaiTi',
+              ),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
 
 class MolePainter extends CustomPainter {
+  final double blinkValue;
+
+  MolePainter({this.blinkValue = 0.0});
+
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()..style = PaintingStyle.fill;
@@ -473,17 +545,40 @@ class MolePainter extends CustomPainter {
       paint
     );
 
-    // Eyes (Black)
+    // Eyes
     paint.color = Colors.black;
-    // Left Eye
-    canvas.drawCircle(Offset(size.width * 0.35, size.height * 0.25), size.width * 0.04, paint);
-    // Right Eye
-    canvas.drawCircle(Offset(size.width * 0.65, size.height * 0.25), size.width * 0.04, paint);
-    
-    // Eye Sparkle (White)
-    paint.color = Colors.white;
-    canvas.drawCircle(Offset(size.width * 0.36, size.height * 0.24), size.width * 0.015, paint);
-    canvas.drawCircle(Offset(size.width * 0.66, size.height * 0.24), size.width * 0.015, paint);
+    double eyeRadius = size.width * 0.08;
+    double eyeY = size.height * 0.25;
+    double leftEyeX = size.width * 0.35;
+    double rightEyeX = size.width * 0.65;
+
+    if (blinkValue > 0.5) {
+      // Closed (Line)
+      paint.style = PaintingStyle.stroke;
+      paint.strokeWidth = 3.0;
+      // Curved closed eye or straight line
+      canvas.drawLine(
+        Offset(leftEyeX - eyeRadius, eyeY), 
+        Offset(leftEyeX + eyeRadius, eyeY), 
+        paint
+      );
+      canvas.drawLine(
+        Offset(rightEyeX - eyeRadius, eyeY), 
+        Offset(rightEyeX + eyeRadius, eyeY), 
+        paint
+      );
+    } else {
+      // Open
+      paint.style = PaintingStyle.fill;
+      canvas.drawCircle(Offset(leftEyeX, eyeY), eyeRadius, paint);
+      canvas.drawCircle(Offset(rightEyeX, eyeY), eyeRadius, paint);
+
+      // Eye Sparkle (White)
+      paint.color = Colors.white;
+      // Make sparkle move slightly if wanted, but static is fine for now
+      canvas.drawCircle(Offset(leftEyeX + eyeRadius * 0.2, eyeY - eyeRadius * 0.2), eyeRadius * 0.4, paint);
+      canvas.drawCircle(Offset(rightEyeX + eyeRadius * 0.2, eyeY - eyeRadius * 0.2), eyeRadius * 0.4, paint);
+    }
 
     // Whiskers (Black lines)
     paint.color = Colors.black;
@@ -500,5 +595,5 @@ class MolePainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
+  bool shouldRepaint(covariant MolePainter oldDelegate) => oldDelegate.blinkValue != blinkValue;
 }

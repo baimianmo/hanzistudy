@@ -84,65 +84,30 @@ class FlashCardItem extends StatefulWidget {
   State<FlashCardItem> createState() => _FlashCardItemState();
 }
 
-class _FlashCardItemState extends State<FlashCardItem>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _animation;
-  bool _isFront = true;
+class _FlashCardItemState extends State<FlashCardItem> {
+  int _step = 0; // 0: Initial (Char only), 1: +Pinyin/Audio, 2: +Words, 3: +Stroke
 
-  @override
-  void initState() {
-    super.initState();
-    _controller = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 400),
-    );
-    _animation = Tween<double>(begin: 0, end: 1).animate(_controller);
-  }
+  void _handleTap() {
+    setState(() {
+      _step++;
+      if (_step > 3) {
+        _step = 0; // Reset to homepage (Initial state)
+      }
+    });
 
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
-  }
-
-  void _flipCard() {
-    if (_isFront) {
-      _controller.forward();
-      // Speak when flipping to back (showing pinyin/details)
+    // Auto-speak when revealing Pinyin/Audio (Step 1)
+    if (_step == 1) {
       widget.onSpeak(widget.hanziChar.character);
-    } else {
-      _controller.reverse();
     }
-    _isFront = !_isFront;
   }
 
   @override
   Widget build(BuildContext context) {
     return Center(
       child: GestureDetector(
-        onTap: _flipCard,
-        child: AnimatedBuilder(
-          animation: _animation,
-          builder: (context, child) {
-            final double rotation = _animation.value * pi;
-            final bool isFrontVisible = rotation <= pi / 2;
-
-            return Transform(
-              alignment: Alignment.center,
-              transform: Matrix4.identity()
-                ..setEntry(3, 2, 0.001)
-                ..rotateY(rotation),
-              child: isFrontVisible
-                  ? _buildFront()
-                  : Transform(
-                      alignment: Alignment.center,
-                      transform: Matrix4.identity()..rotateY(pi),
-                      child: _buildBack(),
-                    ),
-            );
-          },
-        ),
+        onTap: _handleTap,
+        behavior: HitTestBehavior.opaque,
+        child: _step == 0 ? _buildFront() : _buildBack(),
       ),
     );
   }
@@ -182,23 +147,33 @@ class _FlashCardItemState extends State<FlashCardItem>
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Align(
-              alignment: Alignment.topRight,
-              child: IconButton(
-                icon: const Icon(Icons.volume_up, size: 32),
-                color: Colors.blue,
-                onPressed: () => widget.onSpeak(widget.hanziChar.character),
-              ),
-            ),
-            Text(
-              widget.hanziChar.pinyin,
-              style: const TextStyle(
-                fontSize: 48,
-                color: Colors.red,
-                fontWeight: FontWeight.w500,
-              ),
+            // Pinyin and Audio (Visible from Step 1)
+            Stack(
+              alignment: Alignment.center,
+              children: [
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    widget.hanziChar.pinyin,
+                    style: const TextStyle(
+                      fontSize: 48,
+                      color: Colors.red,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: IconButton(
+                    icon: const Icon(Icons.volume_up, size: 32),
+                    color: Colors.blue,
+                    onPressed: () => widget.onSpeak(widget.hanziChar.character),
+                  ),
+                ),
+              ],
             ),
             const SizedBox(height: 16),
+            // Character (Always visible in Back view)
             Text(
               widget.hanziChar.character,
               style: const TextStyle(
@@ -207,27 +182,87 @@ class _FlashCardItemState extends State<FlashCardItem>
               ),
             ),
             const SizedBox(height: 32),
-            const Text(
-              "组词",
-              style: TextStyle(color: Colors.grey, fontSize: 16),
+            
+            // Words (Visible from Step 2)
+            AnimatedOpacity(
+              opacity: _step >= 2 ? 1.0 : 0.0,
+              duration: const Duration(milliseconds: 300),
+              child: Column(
+                children: [
+                   if (_step >= 2) ...[
+                      const Text(
+                        "组词",
+                        style: TextStyle(color: Colors.grey, fontSize: 16),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        widget.hanziChar.words.join("  "),
+                        style: const TextStyle(fontSize: 24),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 24),
+                   ] else ...[
+                      // Placeholder to keep layout consistent or empty
+                      // Actually if we want layout to expand, we shouldn't use Column inside Opacity for conditional children
+                      // But to keep it simple, we just hide it.
+                      // Wait, if _step < 2, the children are not rendered in the `if` block below in original code.
+                      // To animate opacity, the children MUST be rendered but invisible.
+                   ]
+                ],
+              ),
             ),
-            const SizedBox(height: 8),
-            Text(
-              widget.hanziChar.words.join("  "),
-              style: const TextStyle(fontSize: 24),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 24),
-            const Text(
-              "笔顺",
-              style: TextStyle(color: Colors.grey, fontSize: 16),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              widget.hanziChar.strokeOrder,
-              style: const TextStyle(fontSize: 16, color: Colors.black87),
-              textAlign: TextAlign.center,
-            ),
+            
+            // Re-implementing correctly for AnimatedOpacity
+             if (_step >= 2) ...[
+                // We use a key to ensure widget identity if needed, but here simplified
+                TweenAnimationBuilder<double>(
+                  tween: Tween(begin: 0.0, end: 1.0),
+                  duration: const Duration(milliseconds: 500),
+                  builder: (context, value, child) {
+                    return Opacity(opacity: value, child: child);
+                  },
+                  child: Column(
+                    children: [
+                      const Text(
+                        "组词",
+                        style: TextStyle(color: Colors.grey, fontSize: 16),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        widget.hanziChar.words.join("  "),
+                        style: const TextStyle(fontSize: 24),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 24),
+                    ],
+                  ),
+                ),
+             ],
+
+            // Stroke Order (Visible from Step 3)
+            if (_step >= 3) ...[
+               TweenAnimationBuilder<double>(
+                  tween: Tween(begin: 0.0, end: 1.0),
+                  duration: const Duration(milliseconds: 500),
+                  builder: (context, value, child) {
+                    return Opacity(opacity: value, child: child);
+                  },
+                  child: Column(
+                    children: [
+                      const Text(
+                        "笔顺",
+                        style: TextStyle(color: Colors.grey, fontSize: 16),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        widget.hanziChar.strokeOrder,
+                        style: const TextStyle(fontSize: 16, color: Colors.black87),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+               ),
+            ],
           ],
         ),
       ),
