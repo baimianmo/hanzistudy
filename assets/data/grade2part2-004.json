@@ -57,8 +57,12 @@
     {
       "character": "堆",
       "pinyin": "duī",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、撇、竖、四、横、横、横、竖、横",
+      "words": [
+        "土堆",
+        "堆积",
+        "扎堆"
+      ]
     },
     {
       "character": "破",
@@ -83,26 +87,37 @@
     {
       "character": "懊",
       "pinyin": "ào",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、点、竖、撇、竖、横折、横、竖、横折钩、撇、捺、横、撇、捺",
+      "words": [
+        "懊悔",
+        "懊丧"
+      ]
     },
     {
       "character": "丧",
       "pinyin": "sàng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、横、竖、竖提、撇、捺",
+      "words": [
+        "丧失",
+        "丧事"
+      ]
     },
     {
       "character": "啊",
       "pinyin": "a",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "竖、横折、横、横撇、竖、横、竖、横折、横、竖钩",
+      "words": [
+        "啊呀",
+        "好啊"
+      ]
     },
     {
       "character": "猬",
       "pinyin": "wèi",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、弯钩、撇、竖、横折、横、竖、横折钩、横、横、竖、横折钩",
+      "words": [
+        "刺猬"
+      ]
     },
     {
       "character": "绚",
@@ -117,14 +132,22 @@
     {
       "character": "籽",
       "pinyin": "zǐ",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横、竖、撇、点、横折、竖钩、横",
+      "words": [
+        "菜籽",
+        "草籽",
+        "棉籽"
+      ]
     },
     {
       "character": "礼",
       "pinyin": "lǐ",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、横撇、竖、竖、弯钩",
+      "words": [
+        "礼貌",
+        "礼物",
+        "典礼"
+      ]
     }
   ],
   "metadata": {

@@ -1,6 +1,7 @@
 
 import 'dart:convert';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'models.dart';
 
 class DataRepository {
@@ -105,6 +106,54 @@ class DataRepository {
       return lessonData.characters;
     } catch (e) {
       print("Error loading characters: $e");
+      return [];
+    }
+  }
+
+  Future<void> saveStudyRecords(List<StudyRecord> newRecords) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      List<String> recordsJson = prefs.getStringList('study_records') ?? [];
+
+      for (var record in newRecords) {
+        recordsJson.add(json.encode(record.toJson()));
+      }
+
+      await prefs.setStringList('study_records', recordsJson);
+    } catch (e) {
+      print("Error saving study records: $e");
+    }
+  }
+
+  Future<List<StudyRecord>> getStudyRecords() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      List<String> recordsJson = prefs.getStringList('study_records') ?? [];
+
+      return recordsJson
+          .map((str) => StudyRecord.fromJson(json.decode(str)))
+          .toList();
+    } catch (e) {
+      print("Error loading study records: $e");
+      return [];
+    }
+  }
+
+  Future<void> saveGameScope(List<String> lessonIds) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setStringList('game_scope_lessons', lessonIds);
+    } catch (e) {
+      print("Error saving game scope: $e");
+    }
+  }
+
+  Future<List<String>> getGameScope() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      return prefs.getStringList('game_scope_lessons') ?? [];
+    } catch (e) {
+      print("Error loading game scope: $e");
       return [];
     }
   }

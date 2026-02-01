@@ -7,62 +7,100 @@
     {
       "character": "陀",
       "pinyin": "tuó",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横折折折钩、竖、点、四、五、撇、五",
+      "words": [
+        "陀螺",
+        "头陀"
+      ]
     },
     {
       "character": "螺",
       "pinyin": "luó",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "竖、五、横、竖、横折、横、竖、横、撇折、五、四、点",
+      "words": [
+        "螺丝",
+        "海螺",
+        "陀螺"
+      ]
     },
     {
       "character": "毽",
       "pinyin": "jiàn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横、横、五、横折、横、横、横、横、竖、五、四",
+      "words": [
+        "毽子",
+        "踢毽子"
+      ]
     },
     {
       "character": "倒",
       "pinyin": "dǎo",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、竖、横、五、四、横、竖、横、竖钩",
+      "words": [
+        "倒水",
+        "倒立",
+        "摔倒"
+      ]
     },
     {
       "character": "翁",
       "pinyin": "wēng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、捺、五、四、撇、五、四、横折钩、四、横",
+      "words": [
+        "老翁",
+        "渔翁",
+        "富翁"
+      ]
     },
     {
       "character": "枪",
       "pinyin": "qiāng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、撇、点、撇、捺、横折钩、五",
+      "words": [
+        "手枪",
+        "枪支",
+        "枪手"
+      ]
     },
     {
       "character": "橡",
       "pinyin": "xiàng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、撇、点、撇、五、竖、五、横、撇、五、撇、捺",
+      "words": [
+        "橡胶",
+        "橡树",
+        "橡皮"
+      ]
     },
     {
       "character": "控",
       "pinyin": "kòng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖钩、提、点、四、五、撇、横、竖、横",
+      "words": [
+        "控制",
+        "遥控",
+        "控诉"
+      ]
     },
     {
       "character": "坦",
       "pinyin": "tǎn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、竖、五、横、横、横",
+      "words": [
+        "平坦",
+        "坦白",
+        "坦克"
+      ]
     },
     {
       "character": "克",
       "pinyin": "kè",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、竖、五、撇、竖弯钩",
+      "words": [
+        "克服",
+        "千克",
+        "克制"
+      ]
     }
   ],
   "metadata": {

@@ -47,32 +47,45 @@
     {
       "character": "簸",
       "pinyin": "bò",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横、四、撇、横、四、横、竖、竖、横、横、横、撇、四、五、撇、捺",
+      "words": [
+        "颠簸",
+        "簸箕"
+      ]
     },
     {
       "character": "箕",
       "pinyin": "jī",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横、四、撇、横、四、横、竖、竖、横、横、撇、四",
+      "words": [
+        "簸箕",
+        "撮箕"
+      ]
     },
     {
       "character": "玻",
       "pinyin": "bō",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、横、竖、提、五、撇、竖、五、四",
+      "words": [
+        "玻璃"
+      ]
     },
     {
       "character": "璃",
       "pinyin": "lí",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、横、竖、提、四、横、竖、五、竖、五、五、四、五、四",
+      "words": [
+        "玻璃",
+        "琉璃"
+      ]
     },
     {
       "character": "垃",
       "pinyin": "lā",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、四、横、四、撇、横",
+      "words": [
+        "垃圾"
+      ]
     },
     {
       "character": "圾",

@@ -7,50 +7,82 @@
     {
       "character": "博",
       "pinyin": "bó",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、横、竖、五、横、横、竖、四、横、竖钩、四",
+      "words": [
+        "博士",
+        "博大",
+        "拼搏"
+      ]
     },
     {
       "character": "馆",
       "pinyin": "guǎn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横撇、竖提、点、四、五、竖、五、横、五、横",
+      "words": [
+        "饭馆",
+        "图书馆",
+        "宾馆"
+      ]
     },
     {
       "character": "览",
       "pinyin": "lǎn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "竖、竖、撇、横、四、竖、五、撇、五、撇、竖弯钩",
+      "words": [
+        "游览",
+        "阅览",
+        "展览"
+      ]
     },
     {
       "character": "育",
       "pinyin": "yù",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、横、五、四、竖、五、横、横",
+      "words": [
+        "教育",
+        "体育",
+        "培育"
+      ]
     },
     {
       "character": "研",
       "pinyin": "yán",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、撇、竖、五、横、横、撇、竖",
+      "words": [
+        "研究",
+        "研制",
+        "钻研"
+      ]
     },
     {
       "character": "究",
       "pinyin": "jiū",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、四、五、撇、捺、撇、五",
+      "words": [
+        "究竟",
+        "研究",
+        "深究"
+      ]
     },
     {
       "character": "哨",
       "pinyin": "shào",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "竖、横折、横、竖、四、撇、竖、五、横、横",
+      "words": [
+        "口哨",
+        "哨兵",
+        "放哨"
+      ]
     },
     {
       "character": "诊",
       "pinyin": "zhěn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、横折提、撇、捺、撇、三",
+      "words": [
+        "诊断",
+        "门诊",
+        "听诊器"
+      ]
     }
   ],
   "metadata": {

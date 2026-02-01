@@ -67,20 +67,30 @@
     {
       "character": "窿",
       "pinyin": "lóng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、四、五、撇、捺、撇、五、竖、五、横、横、竖、横、横、横、竖、横",
+      "words": [
+        "窟窿"
+      ]
     },
     {
       "character": "窑",
       "pinyin": "yáo",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、四、五、撇、捺、撇、横、竖、横、撇、五、竖折",
+      "words": [
+        "窑洞",
+        "煤窑",
+        "砖窑"
+      ]
     },
     {
       "character": "窄",
       "pinyin": "zhǎi",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、四、五、撇、捺、撇、横、竖、横、横",
+      "words": [
+        "狭窄",
+        "窄小",
+        "冤家路窄"
+      ]
     }
   ],
   "metadata": {

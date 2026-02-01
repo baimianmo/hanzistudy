@@ -57,8 +57,12 @@
     {
       "character": "油",
       "pinyin": "yóu",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、点、提、竖、五、横、竖、横",
+      "words": [
+        "加油",
+        "石油",
+        "奶油"
+      ]
     },
     {
       "character": "腻",
@@ -73,20 +77,30 @@
     {
       "character": "绵",
       "pinyin": "mián",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇折、撇折、提、撇、竖、五、横、横、竖、五、竖",
+      "words": [
+        "绵羊",
+        "绵延",
+        "海绵"
+      ]
     },
     {
       "character": "脆",
       "pinyin": "cuì",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横折钩、横、横、撇、横折钩、撇、竖弯钩",
+      "words": [
+        "干脆",
+        "脆弱"
+      ]
     },
     {
       "character": "邦",
       "pinyin": "bāng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、横、横、撇、横撇弯钩、竖",
+      "words": [
+        "联邦",
+        "安邦"
+      ]
     }
   ],
   "metadata": {

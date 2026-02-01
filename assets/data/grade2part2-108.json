@@ -57,32 +57,46 @@
     {
       "character": "营",
       "pinyin": "yíng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、点、撇、点、点、横撇、竖、横折、横、横",
+      "words": [
+        "军营",
+        "营业"
+      ]
     },
     {
       "character": "务",
       "pinyin": "wù",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横撇、捺、撇、横折钩",
+      "words": [
+        "任务",
+        "务实"
+      ]
     },
     {
       "character": "判",
       "pinyin": "pàn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、撇、横、横、撇、竖、竖钩",
+      "words": [
+        "谈判",
+        "评判"
+      ]
     },
     {
       "character": "饲",
       "pinyin": "sì",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横撇、竖提、横折、横、竖、横折、横",
+      "words": [
+        "饲养"
+      ]
     },
     {
       "character": "养",
       "pinyin": "yǎng",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、撇、横、横、横、撇、捺、竖",
+      "words": [
+        "养育",
+        "修养"
+      ]
     }
   ],
   "metadata": {

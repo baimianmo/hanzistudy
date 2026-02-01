@@ -46,6 +46,15 @@ class MainActivity : FlutterActivity() {
                     stopSpeaking()
                     result.success(true)
                 }
+                "setSpeed" -> {
+                    val speed = call.argument<Int>("speed")
+                    if (speed != null) {
+                        setSpeed(speed)
+                        result.success(true)
+                    } else {
+                        result.error("INVALID_ARGUMENT", "Speed is null", null)
+                    }
+                }
                 else -> {
                     result.notImplemented()
                 }
@@ -81,14 +90,14 @@ class MainActivity : FlutterActivity() {
 
         // Set parameters for Offline TTS
         mTts!!.setParameter(SpeechConstant.PARAMS, null)
-        mTts!!.setParameter(SpeechConstant.ENGINE_TYPE, SpeechConstant.TYPE_LOCAL)
-        mTts!!.setParameter(SpeechConstant.VOICE_NAME, "xiaoyan") // Or whatever voice resource name
+        mTts!!.setParameter(SpeechConstant.ENGINE_TYPE, SpeechConstant.TYPE_XTTS)
 
         if (!commonPath.isNullOrEmpty() && !voicePath.isNullOrEmpty()) {
             // Set resource path: fo|common.jet;fo|voice_name.jet
             // Note: iFlytek offline engine requires 'fo|' prefix for file paths
             val resourcePath = "fo|$commonPath;fo|$voicePath"
             Log.d("IflytekTTS", "Setting resource path: $resourcePath")
+            Toast.makeText(this, "Resource Path: $resourcePath", Toast.LENGTH_LONG).show()
             val setRes = mTts!!.setParameter(ResourceUtil.TTS_RES_PATH, resourcePath)
             if (!setRes) {
                 Log.e("IflytekTTS", "Failed to set resource path")
@@ -97,6 +106,8 @@ class MainActivity : FlutterActivity() {
         } else {
              Toast.makeText(this, "Resource path is null or empty", Toast.LENGTH_LONG).show()
         }
+        
+        mTts!!.setParameter(SpeechConstant.VOICE_NAME, "xiaoyan") // Or whatever voice resource name
         
         mTts!!.setParameter(SpeechConstant.SPEED, "50")
         mTts!!.setParameter(SpeechConstant.VOLUME, "80")
@@ -138,6 +149,13 @@ class MainActivity : FlutterActivity() {
 
     private fun stopSpeaking() {
         mTts?.stopSpeaking()
+    }
+
+    private fun setSpeed(speed: Int) {
+        if (mTts != null) {
+            Log.d("IflytekTTS", "Setting speed to $speed")
+            mTts!!.setParameter(SpeechConstant.SPEED, speed.toString())
+        }
     }
     
     override fun onDestroy() {

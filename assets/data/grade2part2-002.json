@@ -7,8 +7,12 @@
     {
       "character": "坛",
       "pinyin": "tán",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、横、横、撇折、点",
+      "words": [
+        "花坛",
+        "天坛",
+        "论坛"
+      ]
     },
     {
       "character": "龄",
@@ -23,62 +27,99 @@
     {
       "character": "格",
       "pinyin": "gé",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、撇、点、撇、横撇、捺、竖、横折、横",
+      "words": [
+        "格外",
+        "表格",
+        "性格"
+      ]
     },
     {
       "character": "握",
       "pinyin": "wò",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖钩、提、横折、横、撇、横、撇、捺、横、竖、横",
+      "words": [
+        "握手",
+        "把握",
+        "掌握"
+      ]
     },
     {
       "character": "致",
       "pinyin": "zhì",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、撇折、点、横、竖、提、撇、横、撇、捺",
+      "words": [
+        "致敬",
+        "导致",
+        "细致"
+      ]
     },
     {
       "character": "勃",
       "pinyin": "bó",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、点、横、撇、捺、横撇、弯钩、撇、横、横折钩、竖、撇",
+      "words": [
+        "蓬勃",
+        "勃发",
+        "生机勃勃"
+      ]
     },
     {
       "character": "挖",
       "pinyin": "wā",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖钩、提、点、点、横钩、撇、竖弯钩",
+      "words": [
+        "挖掘",
+        "挖土"
+      ]
     },
     {
       "character": "选",
       "pinyin": "xuǎn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横、竖、横、撇、捺、点、横折折撇、捺",
+      "words": [
+        "选择",
+        "选手",
+        "挑选"
+      ]
     },
     {
       "character": "茁",
       "pinyin": "zhuó",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、竖、竖折、竖、竖、竖折、竖",
+      "words": [
+        "茁壮",
+        "茁实"
+      ]
     },
     {
       "character": "移",
       "pinyin": "yí",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "撇、横、竖、撇、点、撇、横撇、点、撇、横撇、点",
+      "words": [
+        "移动",
+        "移民"
+      ]
     },
     {
       "character": "挥",
       "pinyin": "huī",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖钩、提、点、横折、横、撇、横、横、竖",
+      "words": [
+        "挥手",
+        "指挥",
+        "发挥"
+      ]
     },
     {
       "character": "填",
       "pinyin": "tián",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、横、竖、竖、横折、横、横、横、撇、点",
+      "words": [
+        "填空",
+        "填充",
+        "填补"
+      ]
     },
     {
       "character": "扶",

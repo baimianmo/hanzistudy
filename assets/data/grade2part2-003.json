@@ -67,20 +67,32 @@
     {
       "character": "宝",
       "pinyin": "bǎo",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、四、五、横、横、竖、横、撇、点",
+      "words": [
+        "宝贝",
+        "宝石",
+        "珍宝"
+      ]
     },
     {
       "character": "塔",
       "pinyin": "tǎ",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、横、竖、竖、撇、捺、横、竖、横折、横",
+      "words": [
+        "宝塔",
+        "塔楼",
+        "灯塔"
+      ]
     },
     {
       "character": "餐",
       "pinyin": "cān",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "竖、横、撇、撇、捺、点、撇、横撇、捺、横折、横、横、竖提、撇、点",
+      "words": [
+        "餐厅",
+        "早餐",
+        "聚餐"
+      ]
     }
   ],
   "metadata": {

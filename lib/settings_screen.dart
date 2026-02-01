@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'offline_resources_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -10,6 +11,7 @@ class SettingsScreen extends StatefulWidget {
 
 class _SettingsScreenState extends State<SettingsScreen> {
   String _selectedTts = 'system';
+  double _speechRate = 0.75;
   final TextEditingController _appKeyController = TextEditingController();
   final TextEditingController _accessKeyIdController = TextEditingController();
   final TextEditingController _accessKeySecretController = TextEditingController();
@@ -26,6 +28,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
       _selectedTts = prefs.getString('tts_type') ?? 'system';
+      _speechRate = prefs.getDouble('speech_rate') ?? 0.75;
       _appKeyController.text = prefs.getString('aliyun_app_key') ?? '';
       _accessKeyIdController.text = prefs.getString('aliyun_access_key_id') ?? '';
       _accessKeySecretController.text = prefs.getString('aliyun_access_key_secret') ?? '';
@@ -36,6 +39,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Future<void> _saveSettings() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString('tts_type', _selectedTts);
+    await prefs.setDouble('speech_rate', _speechRate);
     await prefs.setString('aliyun_app_key', _appKeyController.text.trim());
     await prefs.setString('aliyun_access_key_id', _accessKeyIdController.text.trim());
     await prefs.setString('aliyun_access_key_secret', _accessKeySecretController.text.trim());
@@ -98,6 +102,43 @@ class _SettingsScreenState extends State<SettingsScreen> {
               });
             },
           ),
+          
+          const SizedBox(height: 24),
+          const Text(
+            '语速设置 / Speech Rate',
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 8),
+          Row(
+            children: [
+              const Icon(Icons.speed),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Slider(
+                      value: _speechRate,
+                      min: 0.5,
+                      max: 1.5,
+                      divisions: 4,
+                      label: "${_speechRate}x",
+                      onChanged: (value) {
+                        setState(() {
+                          _speechRate = value;
+                        });
+                      },
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 16.0),
+                      child: Text("当前语速: ${_speechRate}x"),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+
           if (_selectedTts == 'aliyun') ...[
             const SizedBox(height: 16),
             Card(
@@ -149,6 +190,20 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
             ),
           ],
+          const SizedBox(height: 16),
+          const Divider(),
+          ListTile(
+            leading: const Icon(Icons.download_for_offline),
+            title: const Text('离线资源管理 / Offline Resources'),
+            subtitle: const Text('下载语音资源以支持离线学习'),
+            trailing: const Icon(Icons.arrow_forward_ios),
+            onTap: () {
+               Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => OfflineResourcesScreen()),
+              );
+            },
+          ),
           const SizedBox(height: 32),
           ElevatedButton(
             onPressed: _saveSettings,

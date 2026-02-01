@@ -52,14 +52,15 @@ class LessonData {
   });
 
   factory LessonData.fromJson(Map<String, dynamic> json) {
+    String lessonName = json['lesson'];
     var list = json['characters'] as List;
     List<HanziChar> charactersList =
-        list.map((i) => HanziChar.fromJson(i)).toList();
+        list.map((i) => HanziChar.fromJson(i, lessonName)).toList();
 
     return LessonData(
       grade: json['grade'],
       publisher: json['publisher'],
-      lesson: json['lesson'],
+      lesson: lessonName,
       category: json['category'],
       characters: charactersList,
     );
@@ -71,22 +72,61 @@ class HanziChar {
   final String pinyin;
   final String strokeOrder;
   final List<String> words;
+  final String? lessonName;
 
   HanziChar({
     required this.character,
     required this.pinyin,
     required this.strokeOrder,
     required this.words,
+    this.lessonName,
   });
 
-  factory HanziChar.fromJson(Map<String, dynamic> json) {
+  factory HanziChar.fromJson(Map<String, dynamic> json, [String? lessonName]) {
     return HanziChar(
       character: json['character'],
       pinyin: json['pinyin'],
       strokeOrder: json['stroke_order'],
       words: List<String>.from(json['words']),
+      lessonName: lessonName,
     );
   }
+}
+
+class StudyRecord {
+  final DateTime date;
+  final String lessonTitle;
+  final int characterCount;
+  final int correctCount;
+  final int wrongCount;
+  final int practiceCount;
+
+  StudyRecord({
+    required this.date,
+    required this.lessonTitle,
+    required this.characterCount,
+    required this.correctCount,
+    required this.wrongCount,
+    this.practiceCount = 1,
+  });
+
+  Map<String, dynamic> toJson() => {
+        'date': date.toIso8601String(),
+        'lessonTitle': lessonTitle,
+        'characterCount': characterCount,
+        'correctCount': correctCount,
+        'wrongCount': wrongCount,
+        'practiceCount': practiceCount,
+      };
+
+  factory StudyRecord.fromJson(Map<String, dynamic> json) => StudyRecord(
+        date: DateTime.parse(json['date']),
+        lessonTitle: json['lessonTitle'],
+        characterCount: json['characterCount'],
+        correctCount: json['correctCount'],
+        wrongCount: json['wrongCount'],
+        practiceCount: json['practiceCount'] ?? 1,
+      );
 }
 
 enum LessonType {

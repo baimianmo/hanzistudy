@@ -8,11 +8,12 @@ import 'tts_service.dart';
 class IflytekOfflineTtsService implements TtsService {
   static const MethodChannel _channel = MethodChannel('com.hanzicard/tts');
   bool _isInitialized = false;
+  double _currentRate = 1.0;
 
   @override
   Future<void> speak(String text) async {
     print("TTS: Using IflytekOfflineTtsService for text: $text");
-    Fluttertoast.showToast(msg: "iFlytek TTS: $text");
+    // Fluttertoast.showToast(msg: "iFlytek TTS: $text");
     if (!_isInitialized) {
       await _init();
     }
@@ -38,6 +39,28 @@ class IflytekOfflineTtsService implements TtsService {
     // So we might not support dynamic language switching unless multiple resources are loaded.
   }
 
+  @override
+  Future<void> setSpeechRate(double rate) async {
+    _currentRate = rate;
+    if (_isInitialized) {
+      int speed = (rate * 50).toInt().clamp(0, 100);
+      try {
+        await _channel.invokeMethod('setSpeed', {'speed': speed});
+      } catch (e) {
+        print("Iflytek Offline TTS SetSpeed Error: $e");
+      }
+    }
+  }
+
+  @override
+  Future<void> cache(String text) async {
+    // iFlytek is offline by default, no per-text caching needed.
+    // We ensure initialization (resource copying) is done.
+    if (!_isInitialized) {
+      await _init();
+    }
+  }
+
   Future<void> _init() async {
     if (_isInitialized) return;
 
@@ -54,6 +77,9 @@ class IflytekOfflineTtsService implements TtsService {
         'voicePath': voicePath,
       });
       _isInitialized = true;
+      
+      // Apply current rate
+      await setSpeechRate(_currentRate);
     } catch (e) {
       print("Iflytek Offline TTS Init Error: $e");
     }
@@ -61,13 +87,10 @@ class IflytekOfflineTtsService implements TtsService {
 
   Future<void> _requestPermissions() async {
     // Request permissions required by iFlytek SDK
-    // Older SDKs need PHONE, STORAGE.
-    // Modern Android requires explicit requests.
-    
     Map<Permission, PermissionStatus> statuses = await [
       Permission.phone,
       Permission.storage,
-      Permission.manageExternalStorage, // For Android 11+ full access if needed (usually not for just TTS resources)
+      Permission.manageExternalStorage,
     ].request();
 
     print("Permissions status: $statuses");
@@ -83,13 +106,14 @@ class IflytekOfflineTtsService implements TtsService {
       if (!await file.exists()) {
         await file.writeAsBytes(data.buffer.asUint8List());
         print("Copied asset $assetPath to ${file.path}");
+      } else {
+        // Always overwrite to ensure latest version is used (fixes 24108 if assets updated)
+        await file.writeAsBytes(data.buffer.asUint8List());
+        print("Overwrote asset $assetPath to ${file.path}");
       }
       return file.path;
     } catch (e) {
       print("Error copying asset $assetPath: $e");
-      // Return empty or throw, depending on how robust we want to be.
-      // If the user hasn't put the files there, this will fail.
-      // We return a path anyway to let the native side handle the error or we handle it here.
       return "";
     }
   }

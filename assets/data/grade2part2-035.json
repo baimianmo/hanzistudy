@@ -67,26 +67,39 @@
     {
       "character": "炬",
       "pinyin": "jù",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、撇、撇、捺、横、五、横、五",
+      "words": [
+        "火炬",
+        "目光如炬"
+      ]
     },
     {
       "character": "灿",
       "pinyin": "càn",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "点、撇、撇、捺、竖、五、竖",
+      "words": [
+        "灿烂",
+        "金灿灿"
+      ]
     },
     {
       "character": "垮",
       "pinyin": "kuǎ",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、横、撇、四、横、横、五",
+      "words": [
+        "垮台",
+        "打垮",
+        "拖垮"
+      ]
     },
     {
       "character": "坟",
       "pinyin": "fén",
-      "stroke_order": "",
-      "words": []
+      "stroke_order": "横、竖、提、四、横、撇、捺",
+      "words": [
+        "坟墓",
+        "上坟"
+      ]
     }
   ],
   "metadata": {
